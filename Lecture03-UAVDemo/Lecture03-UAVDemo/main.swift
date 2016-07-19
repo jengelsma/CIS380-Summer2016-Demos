@@ -11,13 +11,14 @@ import Foundation
 var uav : UnmannedAerialVehicle =   UnmannedAerialVehicle(battery: 89)
 //uav.takeOff()
 
-uav.programmableTakeOff { (Int) -> Void in
+uav.programmableTakeOff { (battery: Int) -> Void in
     for i in (1...4).reverse() {
         print("Engine \(i) is powered.")
     }
     for i in (1...2).reverse() {
         print("Sonar \(i) is tested.")
     }
+    print("battery level is \(battery)")
 }
 uav.goHome()
 
