@@ -63,3 +63,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# We don't want private API info in our repo do we? 
+APIKeys.swift
+GoogleService-Info.plist
