@@ -19,7 +19,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+   
+// NOTE: uncomment this and make sure you select all 4 orientations under the general tab to support up side down!:
+//    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask {
+//        return .All
+//    }
 
 }
 
