@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lecture04_StopWatchDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00:000" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V50-Ik-Hbi">
+                                <rect key="frame" x="132" y="274" width="336" height="53"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="336" id="dwX-aW-HMy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="44"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JLq-cC-3bw">
+                                <rect key="frame" x="20" y="550" width="38" height="30"/>
+                                <state key="normal" title="Night"/>
+                                <connections>
+                                    <action selector="toggleNightMode:" destination="BYZ-38-t0r" eventType="touchUpInside" id="g7K-bS-Ti7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FWY-fx-DBl">
+                                <rect key="frame" x="544" y="550" width="36" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="clearTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WYL-LO-ECK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pKF-BC-pnv">
+                                <rect key="frame" x="272" y="550" width="57" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="57" id="nw8-AQ-gUo"/>
+                                </constraints>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <action selector="startTimer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JhU-4z-YSb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FWY-fx-DBl" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="1U5-Bl-cgx"/>
+                            <constraint firstItem="V50-Ik-Hbi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6sK-Nk-Jyi"/>
+                            <constraint firstItem="V50-Ik-Hbi" firstAttribute="centerX" secondItem="pKF-BC-pnv" secondAttribute="centerX" id="JWd-Gn-9yw"/>
+                            <constraint firstItem="pKF-BC-pnv" firstAttribute="baseline" secondItem="FWY-fx-DBl" secondAttribute="baseline" id="K8x-cw-ahl"/>
+                            <constraint firstItem="JLq-cC-3bw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="Pqz-bj-aRP"/>
+                            <constraint firstItem="V50-Ik-Hbi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="V1o-X8-0f3"/>
+                            <constraint firstAttribute="bottom" secondItem="JLq-cC-3bw" secondAttribute="bottom" constant="20" symbolic="YES" id="hFr-T2-vbw"/>
+                            <constraint firstItem="JLq-cC-3bw" firstAttribute="baseline" secondItem="pKF-BC-pnv" secondAttribute="baseline" id="y3U-ui-4Bt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="clearButton" destination="FWY-fx-DBl" id="mbu-iY-U01"/>
+                        <outlet property="displayLabel" destination="V50-Ik-Hbi" id="F1F-Dc-aQf"/>
+                        <outlet property="modeButton" destination="JLq-cC-3bw" id="pnn-rn-6MS"/>
+                        <outlet property="startButton" destination="pKF-BC-pnv" id="wzq-jb-fbm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="543" y="325"/>
+        </scene>
+    </scenes>
+</document>
