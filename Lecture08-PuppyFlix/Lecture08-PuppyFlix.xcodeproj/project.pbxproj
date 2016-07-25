@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E2A5D621D468BAB00F93975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D611D468BAB00F93975 /* AppDelegate.swift */; };
+		9E2A5D641D468BAB00F93975 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D631D468BAB00F93975 /* MasterViewController.swift */; };
+		9E2A5D661D468BAB00F93975 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D651D468BAB00F93975 /* DetailViewController.swift */; };
+		9E2A5D691D468BAB00F93975 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A5D671D468BAB00F93975 /* Main.storyboard */; };
+		9E2A5D6B1D468BAB00F93975 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A5D6A1D468BAB00F93975 /* Assets.xcassets */; };
+		9E2A5D6E1D468BAB00F93975 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E2A5D6C1D468BAB00F93975 /* LaunchScreen.storyboard */; };
+		9E2A5D791D468BAB00F93975 /* Lecture08_PuppyFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D781D468BAB00F93975 /* Lecture08_PuppyFlixTests.swift */; };
+		9E2A5D841D468BAB00F93975 /* Lecture08_PuppyFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D831D468BAB00F93975 /* Lecture08_PuppyFlixUITests.swift */; };
+		9E2A5D921D468C1200F93975 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D911D468C1200F93975 /* APIKeys.swift */; };
+		9E2A5D981D4691F800F93975 /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D951D4691F800F93975 /* FTWCache.m */; };
+		9E2A5D991D4691F800F93975 /* UIImageView+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D971D4691F800F93975 /* UIImageView+Network.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E2A5D751D468BAB00F93975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A5D561D468BAB00F93975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A5D5D1D468BAB00F93975;
+			remoteInfo = "Lecture08-PuppyFlix";
+		};
+		9E2A5D801D468BAB00F93975 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E2A5D561D468BAB00F93975 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E2A5D5D1D468BAB00F93975;
+			remoteInfo = "Lecture08-PuppyFlix";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E2A5D5E1D468BAB00F93975 /* Lecture08-PuppyFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture08-PuppyFlix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A5D611D468BAB00F93975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E2A5D631D468BAB00F93975 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		9E2A5D651D468BAB00F93975 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		9E2A5D681D468BAB00F93975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E2A5D6A1D468BAB00F93975 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E2A5D6D1D468BAB00F93975 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E2A5D6F1D468BAB00F93975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A5D741D468BAB00F93975 /* Lecture08-PuppyFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture08-PuppyFlixTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A5D781D468BAB00F93975 /* Lecture08_PuppyFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08_PuppyFlixTests.swift; sourceTree = "<group>"; };
+		9E2A5D7A1D468BAB00F93975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A5D7F1D468BAB00F93975 /* Lecture08-PuppyFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lecture08-PuppyFlixUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E2A5D831D468BAB00F93975 /* Lecture08_PuppyFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture08_PuppyFlixUITests.swift; sourceTree = "<group>"; };
+		9E2A5D851D468BAB00F93975 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E2A5D911D468C1200F93975 /* APIKeys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		9E2A5D931D4691F800F93975 /* Lecture08-PuppyFlix-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lecture08-PuppyFlix-Bridging-Header.h"; sourceTree = "<group>"; };
+		9E2A5D941D4691F800F93975 /* FTWCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTWCache.h; sourceTree = "<group>"; };
+		9E2A5D951D4691F800F93975 /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
+		9E2A5D961D4691F800F93975 /* UIImageView+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Network.h"; sourceTree = "<group>"; };
+		9E2A5D971D4691F800F93975 /* UIImageView+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Network.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E2A5D5B1D468BAB00F93975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D711D468BAB00F93975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D7C1D468BAB00F93975 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E2A5D551D468BAB00F93975 = {
+			isa = PBXGroup;
+			children = (
+				9E2A5D601D468BAB00F93975 /* Lecture08-PuppyFlix */,
+				9E2A5D771D468BAB00F93975 /* Lecture08-PuppyFlixTests */,
+				9E2A5D821D468BAB00F93975 /* Lecture08-PuppyFlixUITests */,
+				9E2A5D5F1D468BAB00F93975 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E2A5D5F1D468BAB00F93975 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A5D5E1D468BAB00F93975 /* Lecture08-PuppyFlix.app */,
+				9E2A5D741D468BAB00F93975 /* Lecture08-PuppyFlixTests.xctest */,
+				9E2A5D7F1D468BAB00F93975 /* Lecture08-PuppyFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E2A5D601D468BAB00F93975 /* Lecture08-PuppyFlix */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A5D611D468BAB00F93975 /* AppDelegate.swift */,
+				9E2A5D941D4691F800F93975 /* FTWCache.h */,
+				9E2A5D951D4691F800F93975 /* FTWCache.m */,
+				9E2A5D961D4691F800F93975 /* UIImageView+Network.h */,
+				9E2A5D971D4691F800F93975 /* UIImageView+Network.m */,
+				9E2A5D911D468C1200F93975 /* APIKeys.swift */,
+				9E2A5D631D468BAB00F93975 /* MasterViewController.swift */,
+				9E2A5D651D468BAB00F93975 /* DetailViewController.swift */,
+				9E2A5D671D468BAB00F93975 /* Main.storyboard */,
+				9E2A5D6A1D468BAB00F93975 /* Assets.xcassets */,
+				9E2A5D6C1D468BAB00F93975 /* LaunchScreen.storyboard */,
+				9E2A5D6F1D468BAB00F93975 /* Info.plist */,
+				9E2A5D931D4691F800F93975 /* Lecture08-PuppyFlix-Bridging-Header.h */,
+			);
+			path = "Lecture08-PuppyFlix";
+			sourceTree = "<group>";
+		};
+		9E2A5D771D468BAB00F93975 /* Lecture08-PuppyFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A5D781D468BAB00F93975 /* Lecture08_PuppyFlixTests.swift */,
+				9E2A5D7A1D468BAB00F93975 /* Info.plist */,
+			);
+			path = "Lecture08-PuppyFlixTests";
+			sourceTree = "<group>";
+		};
+		9E2A5D821D468BAB00F93975 /* Lecture08-PuppyFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E2A5D831D468BAB00F93975 /* Lecture08_PuppyFlixUITests.swift */,
+				9E2A5D851D468BAB00F93975 /* Info.plist */,
+			);
+			path = "Lecture08-PuppyFlixUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E2A5D5D1D468BAB00F93975 /* Lecture08-PuppyFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A5D881D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlix" */;
+			buildPhases = (
+				9E2A5D5A1D468BAB00F93975 /* Sources */,
+				9E2A5D5B1D468BAB00F93975 /* Frameworks */,
+				9E2A5D5C1D468BAB00F93975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lecture08-PuppyFlix";
+			productName = "Lecture08-PuppyFlix";
+			productReference = 9E2A5D5E1D468BAB00F93975 /* Lecture08-PuppyFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E2A5D731D468BAB00F93975 /* Lecture08-PuppyFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A5D8B1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixTests" */;
+			buildPhases = (
+				9E2A5D701D468BAB00F93975 /* Sources */,
+				9E2A5D711D468BAB00F93975 /* Frameworks */,
+				9E2A5D721D468BAB00F93975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A5D761D468BAB00F93975 /* PBXTargetDependency */,
+			);
+			name = "Lecture08-PuppyFlixTests";
+			productName = "Lecture08-PuppyFlixTests";
+			productReference = 9E2A5D741D468BAB00F93975 /* Lecture08-PuppyFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E2A5D7E1D468BAB00F93975 /* Lecture08-PuppyFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2A5D8E1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixUITests" */;
+			buildPhases = (
+				9E2A5D7B1D468BAB00F93975 /* Sources */,
+				9E2A5D7C1D468BAB00F93975 /* Frameworks */,
+				9E2A5D7D1D468BAB00F93975 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E2A5D811D468BAB00F93975 /* PBXTargetDependency */,
+			);
+			name = "Lecture08-PuppyFlixUITests";
+			productName = "Lecture08-PuppyFlixUITests";
+			productReference = 9E2A5D7F1D468BAB00F93975 /* Lecture08-PuppyFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E2A5D561D468BAB00F93975 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jonathan Engelsma";
+				TargetAttributes = {
+					9E2A5D5D1D468BAB00F93975 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					9E2A5D731D468BAB00F93975 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9E2A5D5D1D468BAB00F93975;
+					};
+					9E2A5D7E1D468BAB00F93975 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 9E2A5D5D1D468BAB00F93975;
+					};
+				};
+			};
+			buildConfigurationList = 9E2A5D591D468BAB00F93975 /* Build configuration list for PBXProject "Lecture08-PuppyFlix" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E2A5D551D468BAB00F93975;
+			productRefGroup = 9E2A5D5F1D468BAB00F93975 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E2A5D5D1D468BAB00F93975 /* Lecture08-PuppyFlix */,
+				9E2A5D731D468BAB00F93975 /* Lecture08-PuppyFlixTests */,
+				9E2A5D7E1D468BAB00F93975 /* Lecture08-PuppyFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E2A5D5C1D468BAB00F93975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A5D6E1D468BAB00F93975 /* LaunchScreen.storyboard in Resources */,
+				9E2A5D6B1D468BAB00F93975 /* Assets.xcassets in Resources */,
+				9E2A5D691D468BAB00F93975 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D721D468BAB00F93975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D7D1D468BAB00F93975 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E2A5D5A1D468BAB00F93975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A5D981D4691F800F93975 /* FTWCache.m in Sources */,
+				9E2A5D991D4691F800F93975 /* UIImageView+Network.m in Sources */,
+				9E2A5D661D468BAB00F93975 /* DetailViewController.swift in Sources */,
+				9E2A5D641D468BAB00F93975 /* MasterViewController.swift in Sources */,
+				9E2A5D921D468C1200F93975 /* APIKeys.swift in Sources */,
+				9E2A5D621D468BAB00F93975 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D701D468BAB00F93975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A5D791D468BAB00F93975 /* Lecture08_PuppyFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E2A5D7B1D468BAB00F93975 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E2A5D841D468BAB00F93975 /* Lecture08_PuppyFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E2A5D761D468BAB00F93975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A5D5D1D468BAB00F93975 /* Lecture08-PuppyFlix */;
+			targetProxy = 9E2A5D751D468BAB00F93975 /* PBXContainerItemProxy */;
+		};
+		9E2A5D811D468BAB00F93975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E2A5D5D1D468BAB00F93975 /* Lecture08-PuppyFlix */;
+			targetProxy = 9E2A5D801D468BAB00F93975 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E2A5D671D468BAB00F93975 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A5D681D468BAB00F93975 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E2A5D6C1D468BAB00F93975 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E2A5D6D1D468BAB00F93975 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E2A5D861D468BAB00F93975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9E2A5D871D468BAB00F93975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E2A5D891D468BAB00F93975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Lecture08-PuppyFlix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lecture08-PuppyFlix/Lecture08-PuppyFlix-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9E2A5D8A1D468BAB00F93975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = "Lecture08-PuppyFlix/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlix";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lecture08-PuppyFlix/Lecture08-PuppyFlix-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		9E2A5D8C1D468BAB00F93975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lecture08-PuppyFlixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture08-PuppyFlix.app/Lecture08-PuppyFlix";
+			};
+			name = Debug;
+		};
+		9E2A5D8D1D468BAB00F93975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Lecture08-PuppyFlixTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlixTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lecture08-PuppyFlix.app/Lecture08-PuppyFlix";
+			};
+			name = Release;
+		};
+		9E2A5D8F1D468BAB00F93975 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lecture08-PuppyFlixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lecture08-PuppyFlix";
+			};
+			name = Debug;
+		};
+		9E2A5D901D468BAB00F93975 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Lecture08-PuppyFlixUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.gvsu.cis.cis657.Lecture08-PuppyFlixUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Lecture08-PuppyFlix";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E2A5D591D468BAB00F93975 /* Build configuration list for PBXProject "Lecture08-PuppyFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A5D861D468BAB00F93975 /* Debug */,
+				9E2A5D871D468BAB00F93975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2A5D881D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A5D891D468BAB00F93975 /* Debug */,
+				9E2A5D8A1D468BAB00F93975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E2A5D8B1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A5D8C1D468BAB00F93975 /* Debug */,
+				9E2A5D8D1D468BAB00F93975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E2A5D8E1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E2A5D8F1D468BAB00F93975 /* Debug */,
+				9E2A5D901D468BAB00F93975 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E2A5D561D468BAB00F93975 /* Project object */;
+}
