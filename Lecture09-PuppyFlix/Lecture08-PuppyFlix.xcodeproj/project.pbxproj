@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		128116BE2085DA1515F13EED /* Pods_Lecture08_PuppyFlixTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A2220E7BA2C7AF6765E3ACA /* Pods_Lecture08_PuppyFlixTests.framework */; };
 		9E2A5D621D468BAB00F93975 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D611D468BAB00F93975 /* AppDelegate.swift */; };
 		9E2A5D641D468BAB00F93975 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D631D468BAB00F93975 /* MasterViewController.swift */; };
 		9E2A5D661D468BAB00F93975 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D651D468BAB00F93975 /* DetailViewController.swift */; };
@@ -18,6 +19,8 @@
 		9E2A5D921D468C1200F93975 /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D911D468C1200F93975 /* APIKeys.swift */; };
 		9E2A5D981D4691F800F93975 /* FTWCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D951D4691F800F93975 /* FTWCache.m */; };
 		9E2A5D991D4691F800F93975 /* UIImageView+Network.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2A5D971D4691F800F93975 /* UIImageView+Network.m */; };
+		B05EBF6016D7E02929DF4FE0 /* Pods_Lecture08_PuppyFlixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D632986D4A982BB5EF58DF /* Pods_Lecture08_PuppyFlixUITests.framework */; };
+		B4BF73472FE8508F637C1E97 /* Pods_Lecture08_PuppyFlix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2ECD46B1C70889EE21C7FD2 /* Pods_Lecture08_PuppyFlix.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A2220E7BA2C7AF6765E3ACA /* Pods_Lecture08_PuppyFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E3CA4AEDC55A9144E1FCC32 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlix.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix.debug.xcconfig"; sourceTree = "<group>"; };
 		9E2A5D5E1D468BAB00F93975 /* Lecture08-PuppyFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture08-PuppyFlix.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E2A5D611D468BAB00F93975 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E2A5D631D468BAB00F93975 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +63,13 @@
 		9E2A5D951D4691F800F93975 /* FTWCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTWCache.m; sourceTree = "<group>"; };
 		9E2A5D961D4691F800F93975 /* UIImageView+Network.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Network.h"; sourceTree = "<group>"; };
 		9E2A5D971D4691F800F93975 /* UIImageView+Network.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Network.m"; sourceTree = "<group>"; };
+		AF964AB48ACC187C6A476A70 /* Pods-Lecture08-PuppyFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlix.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix.release.xcconfig"; sourceTree = "<group>"; };
+		BD1FE1A8E2D55CB0A7362D04 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlixTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		C0D632986D4A982BB5EF58DF /* Pods_Lecture08_PuppyFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F8D67DC7FE8839FFC13CEF /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlixUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlixUITests/Pods-Lecture08-PuppyFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DFA6ED04A6B0DEF933F8F7D3 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlixTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EB3B9EE03A6BECF6B3EABC1E /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture08-PuppyFlixUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture08-PuppyFlixUITests/Pods-Lecture08-PuppyFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F2ECD46B1C70889EE21C7FD2 /* Pods_Lecture08_PuppyFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4BF73472FE8508F637C1E97 /* Pods_Lecture08_PuppyFlix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				128116BE2085DA1515F13EED /* Pods_Lecture08_PuppyFlixTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,12 +93,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B05EBF6016D7E02929DF4FE0 /* Pods_Lecture08_PuppyFlixUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		507EFAD4B16B3EA1334D4B7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2ECD46B1C70889EE21C7FD2 /* Pods_Lecture08_PuppyFlix.framework */,
+				4A2220E7BA2C7AF6765E3ACA /* Pods_Lecture08_PuppyFlixTests.framework */,
+				C0D632986D4A982BB5EF58DF /* Pods_Lecture08_PuppyFlixUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9E2A5D551D468BAB00F93975 = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +117,8 @@
 				9E2A5D771D468BAB00F93975 /* Lecture08-PuppyFlixTests */,
 				9E2A5D821D468BAB00F93975 /* Lecture08-PuppyFlixUITests */,
 				9E2A5D5F1D468BAB00F93975 /* Products */,
+				AF3B4AE8D8D0FFB61123D3CD /* Pods */,
+				507EFAD4B16B3EA1334D4B7F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +170,19 @@
 			path = "Lecture08-PuppyFlixUITests";
 			sourceTree = "<group>";
 		};
+		AF3B4AE8D8D0FFB61123D3CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E3CA4AEDC55A9144E1FCC32 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */,
+				AF964AB48ACC187C6A476A70 /* Pods-Lecture08-PuppyFlix.release.xcconfig */,
+				DFA6ED04A6B0DEF933F8F7D3 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */,
+				BD1FE1A8E2D55CB0A7362D04 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */,
+				EB3B9EE03A6BECF6B3EABC1E /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */,
+				C0F8D67DC7FE8839FFC13CEF /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2A5D881D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlix" */;
 			buildPhases = (
+				737DF5BD61F29E9124475F2A /* [CP] Check Pods Manifest.lock */,
 				9E2A5D5A1D468BAB00F93975 /* Sources */,
 				9E2A5D5B1D468BAB00F93975 /* Frameworks */,
 				9E2A5D5C1D468BAB00F93975 /* Resources */,
+				3D796FBF567F2017A61500C7 /* [CP] Embed Pods Frameworks */,
+				FC6F2C47B0F6DA510EFDF32E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +210,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2A5D8B1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixTests" */;
 			buildPhases = (
+				825B297C9569039F51A8558F /* [CP] Check Pods Manifest.lock */,
 				9E2A5D701D468BAB00F93975 /* Sources */,
 				9E2A5D711D468BAB00F93975 /* Frameworks */,
 				9E2A5D721D468BAB00F93975 /* Resources */,
+				A8EE97F12E71A76AEB06EE16 /* [CP] Embed Pods Frameworks */,
+				BD42DDFADD4BB90C83ECE527 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,9 +231,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2A5D8E1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixUITests" */;
 			buildPhases = (
+				AFB331E42CF7C2E50F82B427 /* [CP] Check Pods Manifest.lock */,
 				9E2A5D7B1D468BAB00F93975 /* Sources */,
 				9E2A5D7C1D468BAB00F93975 /* Frameworks */,
 				9E2A5D7D1D468BAB00F93975 /* Resources */,
+				96B3F8FB9D170198CF05DDAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +316,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D796FBF567F2017A61500C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		737DF5BD61F29E9124475F2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		825B297C9569039F51A8558F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		96B3F8FB9D170198CF05DDAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture08-PuppyFlixUITests/Pods-Lecture08-PuppyFlixUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8EE97F12E71A76AEB06EE16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB331E42CF7C2E50F82B427 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BD42DDFADD4BB90C83ECE527 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6F2C47B0F6DA510EFDF32E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E2A5D5A1D468BAB00F93975 /* Sources */ = {
@@ -421,6 +592,7 @@
 		};
 		9E2A5D891D468BAB00F93975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E3CA4AEDC55A9144E1FCC32 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -435,6 +607,7 @@
 		};
 		9E2A5D8A1D468BAB00F93975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF964AB48ACC187C6A476A70 /* Pods-Lecture08-PuppyFlix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -448,6 +621,7 @@
 		};
 		9E2A5D8C1D468BAB00F93975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA6ED04A6B0DEF933F8F7D3 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Lecture08-PuppyFlixTests/Info.plist";
@@ -460,6 +634,7 @@
 		};
 		9E2A5D8D1D468BAB00F93975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD1FE1A8E2D55CB0A7362D04 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Lecture08-PuppyFlixTests/Info.plist";
@@ -472,6 +647,7 @@
 		};
 		9E2A5D8F1D468BAB00F93975 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB3B9EE03A6BECF6B3EABC1E /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Lecture08-PuppyFlixUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -483,6 +659,7 @@
 		};
 		9E2A5D901D468BAB00F93975 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0F8D67DC7FE8839FFC13CEF /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Lecture08-PuppyFlixUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -511,6 +688,7 @@
 				9E2A5D8A1D468BAB00F93975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E2A5D8B1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +697,7 @@
 				9E2A5D8D1D468BAB00F93975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E2A5D8E1D468BAB00F93975 /* Build configuration list for PBXNativeTarget "Lecture08-PuppyFlixUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +706,7 @@
 				9E2A5D901D468BAB00F93975 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

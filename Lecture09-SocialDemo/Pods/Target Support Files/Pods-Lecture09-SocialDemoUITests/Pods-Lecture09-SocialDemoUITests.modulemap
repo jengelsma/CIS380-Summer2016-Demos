@@ -1,0 +1,6 @@
+framework module Pods_Lecture09_SocialDemoUITests {
+  umbrella header "Pods-Lecture09-SocialDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0602F9366D31D13C91A9766BAB07DEDC /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E41C4D1DA568492B92B8DC09704E55E7 /* fr.lproj */; };
+		10340AB213CFBE2C7DBF65775CF565AE /* safari-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 8867EDCEAEB30B211FF1FD87D99B5188 /* safari-7.png */; };
+		1511212CDFB1F26617C095A0CAFE2120 /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = C295C212A8936A42437F4C4E039D79AA /* zh_CN.lproj */; };
+		156B831414528203129D1B6697A03255 /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9CCCDCC29E29AF8D6F90B5AE2B66BC21 /* sk.lproj */; };
+		16D32E29FD981AB1F55B1670C99B4463 /* TUSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D2FA6898B0E9ECF1FEDCAED08AD8AA /* TUSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		232AC8E90CA038C68670180E530A2BE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		272916A0B5A0D42C3A57E049CC13CDBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		27AE107E5E75197EA83B6B7E3FABB7B2 /* Pods-Lecture08-PuppyFlixTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F42CFF8BC588CC9DC98EF43AF1522F1 /* Pods-Lecture08-PuppyFlixTests-dummy.m */; };
+		2ED7F93078FDD6113E8A566F4EAC0762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		344764CD5CAAB1EFDC21EFA56BCA7836 /* TUSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C385319616F5A821348B8946E4CA85A /* TUSafariActivity-dummy.m */; };
+		38404F7F07FE05DA568BBE4D7C97EC90 /* Pods-Lecture08-PuppyFlixTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB664CBD73816305222A262B2758887 /* Pods-Lecture08-PuppyFlixTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		390C2EE4B60CF1E5064141566300E6DB /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 24192FE2416BC17C497C4DEC2614E1F8 /* pt.lproj */; };
+		3A929843EC251686CD6BDCE5035E4B6E /* eu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 9D00C2FE692106FEF9507A2FA62E72C1 /* eu.lproj */; };
+		3B1A61DCCD1012CABA29A6EEE0D88B02 /* Pods-Lecture08-PuppyFlix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CB3CBF9CB11112DA432F5808C1563A1 /* Pods-Lecture08-PuppyFlix-dummy.m */; };
+		44BB7A3DA94298883E48AE140F2C1C1A /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = BEA7D5EF553A2D28B8190EB944F6D7DC /* pl.lproj */; };
+		48A09961CF1418FD711125CAB4A0F83F /* safari-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AF01709A0387BAEFD2F52E6A3E6BF75 /* safari-7@2x.png */; };
+		63909C564A17F5446B3A1435D832DE58 /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CBF7AD0475BE6C17AD458BA1E9671FCB /* no.lproj */; };
+		66C18858A8B2B9D4C795F6BA6F6FB044 /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F4C04FB7E9BDD206717D5FC1A39D8B0F /* ja.lproj */; };
+		6C51AD02D0BA84BD4A791F4667CAA3EA /* safari-7~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B136AE9D2C80C19A1E36FA7C718EAECA /* safari-7~iPad@2x.png */; };
+		6F1BC71BD7C15DD5AB79EB75E8A73879 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F66B8C0C829F4D0D1F9470BAAB2AB1BA /* vi.lproj */; };
+		736AE5A4FD3D4154E71DEEB37127C169 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E2BD1F4E343026C18557FAFC476023E9 /* es.lproj */; };
+		783EFBC9F8C538C2A1F9EA13C3875BD0 /* TUSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = C3434F31E56E79A1CB6C7651E0461C16 /* TUSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7A4464B12D8BD54BF16879EC51A480F5 /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = B1E65A734D81F9940C5EEA236CE3A120 /* safari.png */; };
+		7DD3EB9560F50ACAF4E1AE34848DFBC2 /* TUSafariActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2003F6D7B59F52ACF7366CB8FDD459E1 /* TUSafariActivity.bundle */; };
+		92B2EEE56CE28B63E7A794EC770E1750 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CFE190DE51C7A0F4A6F1241D91115AEF /* cs.lproj */; };
+		98EFDAF71F534E32574743177BB3B1B8 /* safari-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EC125CB8E8B4A9FDCF41D0E0A51F0111 /* safari-7@3x.png */; };
+		9BA051E8E464B5E5A98D451445E8C1F5 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E210A17C911F99E832584CBF7B968DCB /* fi.lproj */; };
+		A067C137ECE09CFF8506C5C1EA6B5505 /* Pods-Lecture08-PuppyFlix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A1CD7C1FD5B4603E3F9759B0E88B511 /* Pods-Lecture08-PuppyFlix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A275ED06FE424AE880BCD80DCE260B4F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A307CEC73BAF5D03EBDA641955D2DE46 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = B25E9909538D065B40C0065FD99D8D15 /* de.lproj */; };
+		A9962A9C83A6D8D25FA91E56706A8FCF /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 99B4E8E2DE90F5F5701BF1862D6DA102 /* safari@3x.png */; };
+		C324BDD0377B438CE71BAE6594240F4D /* safari-7~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 184D2CE41DADC13CE9F46B95AA2C6269 /* safari-7~iPad.png */; };
+		C3A931D4BCCD4BAD0EDB08E2A3678D56 /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 048F5526C313DD8FA01825D10CF02949 /* ru.lproj */; };
+		C3F869D1D45D7C54C0ED929FA73D9B42 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 816ECA1421BAA62F33109516CD5E7C1E /* it.lproj */; };
+		C772709E5306919452F834EEE4C4D425 /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A6E2BED95EF9533EB17B784A37708E65 /* nl.lproj */; };
+		DAAE8DA4D8F950B5C1D49F3A5A2EFEE2 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1BBC366B8ACFD552A2248E77DCEEB73C /* ko.lproj */; };
+		DC04A83CD8ACCA96A09FAA856DBBA088 /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C50807114F6444266403EE7F292FB8E /* TUSafariActivity.m */; };
+		E3F20019BE17317A2C20C5103C765C1A /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C75A71293E3CF0DCB11E39A81AE223A1 /* safari~iPad@2x.png */; };
+		ED0F46B9B3721B6A63BAED7236CAB060 /* Pods-Lecture08-PuppyFlixUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E4068772D5DEB1D6AF4D3D57C9E195B1 /* Pods-Lecture08-PuppyFlixUITests-dummy.m */; };
+		EF7854AFCEEB9844647E8B61641412E1 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 205F1CD79BDF10E4DAEAC61BEF280FD2 /* en.lproj */; };
+		F2BE2671C154AE2426C0E6E2D1FA4C8C /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = F351E0761E4F5E29B8064E0344E1B0EB /* sv.lproj */; };
+		FCDED471F112E76CE4B4ADDB52559D23 /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 74DDA8217C6E3E022B190BA31805985F /* safari@2x.png */; };
+		FCF50B625DF080D36B6B52BE4C41E5D0 /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C55985E7DF69F9C2B200FA07509E25FB /* safari~iPad.png */; };
+		FFBE1D4F2378D97EF654838B059E7D54 /* Pods-Lecture08-PuppyFlixUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D9A1A749D64315DEB1537D0AC77F3A /* Pods-Lecture08-PuppyFlixUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4720D8F469B6A452DDA8128AF5967965 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833EB4C513DBE5FA2DBF1E910C0EB051;
+			remoteInfo = "TUSafariActivity-TUSafariActivity";
+		};
+		B71C09377D7AF988ACAB541DD6595CCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2E5AFCFCFF898DDA5F5DE5A2B880BFB;
+			remoteInfo = TUSafariActivity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007FB8830D8EBB8ED273E875BD98D322 /* Pods-Lecture08-PuppyFlixTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lecture08-PuppyFlixTests.modulemap"; sourceTree = "<group>"; };
+		046C02D0C3D5015B399F966E2317762F /* Pods-Lecture08-PuppyFlixTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlixTests-resources.sh"; sourceTree = "<group>"; };
+		048F5526C313DD8FA01825D10CF02949 /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Pod/Assets/ru.lproj; sourceTree = "<group>"; };
+		0C3B8184165C9E00180C18C4711A67C6 /* Pods-Lecture08-PuppyFlix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lecture08-PuppyFlix-acknowledgements.plist"; sourceTree = "<group>"; };
+		184D2CE41DADC13CE9F46B95AA2C6269 /* safari-7~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad.png"; path = "Pod/Assets/safari-7~iPad.png"; sourceTree = "<group>"; };
+		1BBC366B8ACFD552A2248E77DCEEB73C /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Pod/Assets/ko.lproj; sourceTree = "<group>"; };
+		2003F6D7B59F52ACF7366CB8FDD459E1 /* TUSafariActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUSafariActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		205F1CD79BDF10E4DAEAC61BEF280FD2 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Assets/en.lproj; sourceTree = "<group>"; };
+		24192FE2416BC17C497C4DEC2614E1F8 /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Pod/Assets/pt.lproj; sourceTree = "<group>"; };
+		2C385319616F5A821348B8946E4CA85A /* TUSafariActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUSafariActivity-dummy.m"; sourceTree = "<group>"; };
+		320D69A546BE6FDA9AA51FA2E522978C /* Pods_Lecture08_PuppyFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35D2FA6898B0E9ECF1FEDCAED08AD8AA /* TUSafariActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-umbrella.h"; sourceTree = "<group>"; };
+		3A1CD7C1FD5B4603E3F9759B0E88B511 /* Pods-Lecture08-PuppyFlix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lecture08-PuppyFlix-umbrella.h"; sourceTree = "<group>"; };
+		3C3DB099448D28580E0EAC5D04AA1942 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4057E4873BEDD3742F3074DC0AF6963A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C50807114F6444266403EE7F292FB8E /* TUSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSafariActivity.m; path = Pod/Classes/TUSafariActivity.m; sourceTree = "<group>"; };
+		5410E3E8820BEE5B305F5A5D1D9368CA /* ResourceBundle-TUSafariActivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TUSafariActivity-Info.plist"; sourceTree = "<group>"; };
+		542B4CECA12C09DA35380D679E2DF530 /* Pods-Lecture08-PuppyFlixUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lecture08-PuppyFlixUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSafariActivity.xcconfig; sourceTree = "<group>"; };
+		5CB3CBF9CB11112DA432F5808C1563A1 /* Pods-Lecture08-PuppyFlix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lecture08-PuppyFlix-dummy.m"; sourceTree = "<group>"; };
+		5F7AC6EBFDCF38732228A044C176D05E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		685F3C3CF1DA674E19137BD88F08E08E /* Pods-Lecture08-PuppyFlix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lecture08-PuppyFlix-acknowledgements.markdown"; sourceTree = "<group>"; };
+		741165947E0D4684AD2D18F5E846035D /* Pods-Lecture08-PuppyFlixTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Lecture08-PuppyFlixTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74DDA8217C6E3E022B190BA31805985F /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@2x.png"; path = "Pod/Assets/safari@2x.png"; sourceTree = "<group>"; };
+		7972C40A45B94EF128136E64457AFFE3 /* Pods-Lecture08-PuppyFlixTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlixTests-frameworks.sh"; sourceTree = "<group>"; };
+		79D9A1A749D64315DEB1537D0AC77F3A /* Pods-Lecture08-PuppyFlixUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lecture08-PuppyFlixUITests-umbrella.h"; sourceTree = "<group>"; };
+		7D5570E41F0A8E7C2609F16F9B8967B0 /* Pods-Lecture08-PuppyFlixUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lecture08-PuppyFlixUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		816ECA1421BAA62F33109516CD5E7C1E /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Pod/Assets/it.lproj; sourceTree = "<group>"; };
+		826A68B09294BA2B1C6DC0F56C4ED582 /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82DE59109D91680AE1935A392BC42F51 /* TUSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8867EDCEAEB30B211FF1FD87D99B5188 /* safari-7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7.png"; path = "Pod/Assets/safari-7.png"; sourceTree = "<group>"; };
+		918ACEA6281B2A9952C6AE7ED7392A14 /* Pods-Lecture08-PuppyFlix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lecture08-PuppyFlix.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E2034CB569B9F59C886C4E5FDC5541 /* Pods-Lecture08-PuppyFlix-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlix-frameworks.sh"; sourceTree = "<group>"; };
+		99B4E8E2DE90F5F5701BF1862D6DA102 /* safari@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@3x.png"; path = "Pod/Assets/safari@3x.png"; sourceTree = "<group>"; };
+		9AF01709A0387BAEFD2F52E6A3E6BF75 /* safari-7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@2x.png"; path = "Pod/Assets/safari-7@2x.png"; sourceTree = "<group>"; };
+		9CCCDCC29E29AF8D6F90B5AE2B66BC21 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Pod/Assets/sk.lproj; sourceTree = "<group>"; };
+		9D00C2FE692106FEF9507A2FA62E72C1 /* eu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = eu.lproj; path = Pod/Assets/eu.lproj; sourceTree = "<group>"; };
+		9F42CFF8BC588CC9DC98EF43AF1522F1 /* Pods-Lecture08-PuppyFlixTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lecture08-PuppyFlixTests-dummy.m"; sourceTree = "<group>"; };
+		A467F476E340EA19FBA1B2E869A382F4 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		A6E2BED95EF9533EB17B784A37708E65 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Pod/Assets/nl.lproj; sourceTree = "<group>"; };
+		A99B17C21F5693BFE8A37DE30C533965 /* Pods-Lecture08-PuppyFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlix.release.xcconfig"; sourceTree = "<group>"; };
+		ABD4AC04D33388CB7A36308D91AEC6B7 /* Pods-Lecture08-PuppyFlixTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Lecture08-PuppyFlixTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AF671DAD78ED7965886498279A631478 /* TUSafariActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TUSafariActivity.modulemap; sourceTree = "<group>"; };
+		B075AD48A2F27605D8C6DE645CC882DC /* Pods-Lecture08-PuppyFlix-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlix-resources.sh"; sourceTree = "<group>"; };
+		B136AE9D2C80C19A1E36FA7C718EAECA /* safari-7~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad@2x.png"; path = "Pod/Assets/safari-7~iPad@2x.png"; sourceTree = "<group>"; };
+		B1E65A734D81F9940C5EEA236CE3A120 /* safari.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = safari.png; path = Pod/Assets/safari.png; sourceTree = "<group>"; };
+		B25E9909538D065B40C0065FD99D8D15 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Pod/Assets/de.lproj; sourceTree = "<group>"; };
+		BAF1AB081DDEB29422A182E7867BAA84 /* Pods-Lecture08-PuppyFlixUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlixUITests-resources.sh"; sourceTree = "<group>"; };
+		BEA7D5EF553A2D28B8190EB944F6D7DC /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Pod/Assets/pl.lproj; sourceTree = "<group>"; };
+		C295C212A8936A42437F4C4E039D79AA /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = zh_CN.lproj; path = Pod/Assets/zh_CN.lproj; sourceTree = "<group>"; };
+		C3434F31E56E79A1CB6C7651E0461C16 /* TUSafariActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSafariActivity.h; path = Pod/Classes/TUSafariActivity.h; sourceTree = "<group>"; };
+		C3C163992A7A7F79AC92B192FF6D2F37 /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C42B7BC2FAECED629A6DA61C1CB6EB1A /* Pods_Lecture08_PuppyFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C46011D088FFBB00B77E75E39AFB628E /* TUSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-prefix.pch"; sourceTree = "<group>"; };
+		C55985E7DF69F9C2B200FA07509E25FB /* safari~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad.png"; path = "Pod/Assets/safari~iPad.png"; sourceTree = "<group>"; };
+		C75A71293E3CF0DCB11E39A81AE223A1 /* safari~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad@2x.png"; path = "Pod/Assets/safari~iPad@2x.png"; sourceTree = "<group>"; };
+		CAAC781461AA8EE8A43B7856A6D670E3 /* Pods-Lecture08-PuppyFlixUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Lecture08-PuppyFlixUITests-frameworks.sh"; sourceTree = "<group>"; };
+		CBF7AD0475BE6C17AD458BA1E9671FCB /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = no.lproj; path = Pod/Assets/no.lproj; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFE190DE51C7A0F4A6F1241D91115AEF /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Pod/Assets/cs.lproj; sourceTree = "<group>"; };
+		DCB664CBD73816305222A262B2758887 /* Pods-Lecture08-PuppyFlixTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Lecture08-PuppyFlixTests-umbrella.h"; sourceTree = "<group>"; };
+		E10A2ED035B6B9BAD25D2D642F7AD14E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1A29DDBA29A5E3E5F400437BA6691EE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E210A17C911F99E832584CBF7B968DCB /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Pod/Assets/fi.lproj; sourceTree = "<group>"; };
+		E2BD1F4E343026C18557FAFC476023E9 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Pod/Assets/es.lproj; sourceTree = "<group>"; };
+		E4068772D5DEB1D6AF4D3D57C9E195B1 /* Pods-Lecture08-PuppyFlixUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Lecture08-PuppyFlixUITests-dummy.m"; sourceTree = "<group>"; };
+		E41C4D1DA568492B92B8DC09704E55E7 /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Pod/Assets/fr.lproj; sourceTree = "<group>"; };
+		E8AA20183291546FDAE4A0F85EDCA3B3 /* Pods-Lecture08-PuppyFlixUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Lecture08-PuppyFlixUITests.modulemap"; sourceTree = "<group>"; };
+		EC125CB8E8B4A9FDCF41D0E0A51F0111 /* safari-7@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@3x.png"; path = "Pod/Assets/safari-7@3x.png"; sourceTree = "<group>"; };
+		F351E0761E4F5E29B8064E0344E1B0EB /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Pod/Assets/sv.lproj; sourceTree = "<group>"; };
+		F4C04FB7E9BDD206717D5FC1A39D8B0F /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Pod/Assets/ja.lproj; sourceTree = "<group>"; };
+		F66B8C0C829F4D0D1F9470BAAB2AB1BA /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Pod/Assets/vi.lproj; sourceTree = "<group>"; };
+		FCD7EE56B8DD8FE637BFC52D229E4D14 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Lecture08-PuppyFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		FF75A0C2392F6B7FAF3E5EEAAE0D7339 /* Pods_Lecture08_PuppyFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture08_PuppyFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		383C18BCDF0F3A9C8C032506B5FC177D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF8E23B83477DAA87F5D12E35C33C718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				272916A0B5A0D42C3A57E049CC13CDBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C5E578D4C118F227468B66559ED643 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				232AC8E90CA038C68670180E530A2BE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2157FEE1475588F806536519EC3EE59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A275ED06FE424AE880BCD80DCE260B4F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7F64908570AFA73E9EB53704E869FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ED7F93078FDD6113E8A566F4EAC0762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089D375739FF38221534FFCF594ED8E7 /* Pods-Lecture08-PuppyFlix */ = {
+			isa = PBXGroup;
+			children = (
+				4057E4873BEDD3742F3074DC0AF6963A /* Info.plist */,
+				918ACEA6281B2A9952C6AE7ED7392A14 /* Pods-Lecture08-PuppyFlix.modulemap */,
+				685F3C3CF1DA674E19137BD88F08E08E /* Pods-Lecture08-PuppyFlix-acknowledgements.markdown */,
+				0C3B8184165C9E00180C18C4711A67C6 /* Pods-Lecture08-PuppyFlix-acknowledgements.plist */,
+				5CB3CBF9CB11112DA432F5808C1563A1 /* Pods-Lecture08-PuppyFlix-dummy.m */,
+				93E2034CB569B9F59C886C4E5FDC5541 /* Pods-Lecture08-PuppyFlix-frameworks.sh */,
+				B075AD48A2F27605D8C6DE645CC882DC /* Pods-Lecture08-PuppyFlix-resources.sh */,
+				3A1CD7C1FD5B4603E3F9759B0E88B511 /* Pods-Lecture08-PuppyFlix-umbrella.h */,
+				FCD7EE56B8DD8FE637BFC52D229E4D14 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */,
+				A99B17C21F5693BFE8A37DE30C533965 /* Pods-Lecture08-PuppyFlix.release.xcconfig */,
+			);
+			name = "Pods-Lecture08-PuppyFlix";
+			path = "Target Support Files/Pods-Lecture08-PuppyFlix";
+			sourceTree = "<group>";
+		};
+		162593255C4CD5DD8FD39DD3A78F8A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42B7BC2FAECED629A6DA61C1CB6EB1A /* Pods_Lecture08_PuppyFlix.framework */,
+				FF75A0C2392F6B7FAF3E5EEAAE0D7339 /* Pods_Lecture08_PuppyFlixTests.framework */,
+				320D69A546BE6FDA9AA51FA2E522978C /* Pods_Lecture08_PuppyFlixUITests.framework */,
+				2003F6D7B59F52ACF7366CB8FDD459E1 /* TUSafariActivity.bundle */,
+				82DE59109D91680AE1935A392BC42F51 /* TUSafariActivity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E9DB97AC7015CCCA071C1429B2E4BA4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F7AC6EBFDCF38732228A044C176D05E /* Info.plist */,
+				5410E3E8820BEE5B305F5A5D1D9368CA /* ResourceBundle-TUSafariActivity-Info.plist */,
+				AF671DAD78ED7965886498279A631478 /* TUSafariActivity.modulemap */,
+				5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */,
+				2C385319616F5A821348B8946E4CA85A /* TUSafariActivity-dummy.m */,
+				C46011D088FFBB00B77E75E39AFB628E /* TUSafariActivity-prefix.pch */,
+				35D2FA6898B0E9ECF1FEDCAED08AD8AA /* TUSafariActivity-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TUSafariActivity";
+			sourceTree = "<group>";
+		};
+		2CE7407B5C5CBED199C967E9B7F47709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CFE190DE51C7A0F4A6F1241D91115AEF /* cs.lproj */,
+				B25E9909538D065B40C0065FD99D8D15 /* de.lproj */,
+				205F1CD79BDF10E4DAEAC61BEF280FD2 /* en.lproj */,
+				E2BD1F4E343026C18557FAFC476023E9 /* es.lproj */,
+				9D00C2FE692106FEF9507A2FA62E72C1 /* eu.lproj */,
+				E210A17C911F99E832584CBF7B968DCB /* fi.lproj */,
+				E41C4D1DA568492B92B8DC09704E55E7 /* fr.lproj */,
+				816ECA1421BAA62F33109516CD5E7C1E /* it.lproj */,
+				F4C04FB7E9BDD206717D5FC1A39D8B0F /* ja.lproj */,
+				1BBC366B8ACFD552A2248E77DCEEB73C /* ko.lproj */,
+				A6E2BED95EF9533EB17B784A37708E65 /* nl.lproj */,
+				CBF7AD0475BE6C17AD458BA1E9671FCB /* no.lproj */,
+				BEA7D5EF553A2D28B8190EB944F6D7DC /* pl.lproj */,
+				24192FE2416BC17C497C4DEC2614E1F8 /* pt.lproj */,
+				048F5526C313DD8FA01825D10CF02949 /* ru.lproj */,
+				B1E65A734D81F9940C5EEA236CE3A120 /* safari.png */,
+				8867EDCEAEB30B211FF1FD87D99B5188 /* safari-7.png */,
+				9AF01709A0387BAEFD2F52E6A3E6BF75 /* safari-7@2x.png */,
+				EC125CB8E8B4A9FDCF41D0E0A51F0111 /* safari-7@3x.png */,
+				184D2CE41DADC13CE9F46B95AA2C6269 /* safari-7~iPad.png */,
+				B136AE9D2C80C19A1E36FA7C718EAECA /* safari-7~iPad@2x.png */,
+				74DDA8217C6E3E022B190BA31805985F /* safari@2x.png */,
+				99B4E8E2DE90F5F5701BF1862D6DA102 /* safari@3x.png */,
+				C55985E7DF69F9C2B200FA07509E25FB /* safari~iPad.png */,
+				C75A71293E3CF0DCB11E39A81AE223A1 /* safari~iPad@2x.png */,
+				9CCCDCC29E29AF8D6F90B5AE2B66BC21 /* sk.lproj */,
+				F351E0761E4F5E29B8064E0344E1B0EB /* sv.lproj */,
+				F66B8C0C829F4D0D1F9470BAAB2AB1BA /* vi.lproj */,
+				C295C212A8936A42437F4C4E039D79AA /* zh_CN.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		31E3C0C6B7E4D6251CB8222FA452235C /* TUSafariActivity */ = {
+			isa = PBXGroup;
+			children = (
+				C3434F31E56E79A1CB6C7651E0461C16 /* TUSafariActivity.h */,
+				4C50807114F6444266403EE7F292FB8E /* TUSafariActivity.m */,
+				2CE7407B5C5CBED199C967E9B7F47709 /* Resources */,
+				1E9DB97AC7015CCCA071C1429B2E4BA4 /* Support Files */,
+			);
+			path = TUSafariActivity;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		435F87A52A5B2722FE2C20D99C33F4CB /* Pods-Lecture08-PuppyFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1A29DDBA29A5E3E5F400437BA6691EE /* Info.plist */,
+				E8AA20183291546FDAE4A0F85EDCA3B3 /* Pods-Lecture08-PuppyFlixUITests.modulemap */,
+				542B4CECA12C09DA35380D679E2DF530 /* Pods-Lecture08-PuppyFlixUITests-acknowledgements.markdown */,
+				7D5570E41F0A8E7C2609F16F9B8967B0 /* Pods-Lecture08-PuppyFlixUITests-acknowledgements.plist */,
+				E4068772D5DEB1D6AF4D3D57C9E195B1 /* Pods-Lecture08-PuppyFlixUITests-dummy.m */,
+				CAAC781461AA8EE8A43B7856A6D670E3 /* Pods-Lecture08-PuppyFlixUITests-frameworks.sh */,
+				BAF1AB081DDEB29422A182E7867BAA84 /* Pods-Lecture08-PuppyFlixUITests-resources.sh */,
+				79D9A1A749D64315DEB1537D0AC77F3A /* Pods-Lecture08-PuppyFlixUITests-umbrella.h */,
+				C3C163992A7A7F79AC92B192FF6D2F37 /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */,
+				826A68B09294BA2B1C6DC0F56C4ED582 /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */,
+			);
+			name = "Pods-Lecture08-PuppyFlixUITests";
+			path = "Target Support Files/Pods-Lecture08-PuppyFlixUITests";
+			sourceTree = "<group>";
+		};
+		635B0E29F53BEEEF9C1E468F988E6236 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31E3C0C6B7E4D6251CB8222FA452235C /* TUSafariActivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		671731FFF1BAA56A7C8BE30C59F00EEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				089D375739FF38221534FFCF594ED8E7 /* Pods-Lecture08-PuppyFlix */,
+				F9D368CDCB32D24F055790087713ED41 /* Pods-Lecture08-PuppyFlixTests */,
+				435F87A52A5B2722FE2C20D99C33F4CB /* Pods-Lecture08-PuppyFlixUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				635B0E29F53BEEEF9C1E468F988E6236 /* Pods */,
+				162593255C4CD5DD8FD39DD3A78F8A1D /* Products */,
+				671731FFF1BAA56A7C8BE30C59F00EEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9D368CDCB32D24F055790087713ED41 /* Pods-Lecture08-PuppyFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				E10A2ED035B6B9BAD25D2D642F7AD14E /* Info.plist */,
+				007FB8830D8EBB8ED273E875BD98D322 /* Pods-Lecture08-PuppyFlixTests.modulemap */,
+				741165947E0D4684AD2D18F5E846035D /* Pods-Lecture08-PuppyFlixTests-acknowledgements.markdown */,
+				ABD4AC04D33388CB7A36308D91AEC6B7 /* Pods-Lecture08-PuppyFlixTests-acknowledgements.plist */,
+				9F42CFF8BC588CC9DC98EF43AF1522F1 /* Pods-Lecture08-PuppyFlixTests-dummy.m */,
+				7972C40A45B94EF128136E64457AFFE3 /* Pods-Lecture08-PuppyFlixTests-frameworks.sh */,
+				046C02D0C3D5015B399F966E2317762F /* Pods-Lecture08-PuppyFlixTests-resources.sh */,
+				DCB664CBD73816305222A262B2758887 /* Pods-Lecture08-PuppyFlixTests-umbrella.h */,
+				3C3DB099448D28580E0EAC5D04AA1942 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */,
+				A467F476E340EA19FBA1B2E869A382F4 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */,
+			);
+			name = "Pods-Lecture08-PuppyFlixTests";
+			path = "Target Support Files/Pods-Lecture08-PuppyFlixTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1238D8D11B3F926795BAD937313FAF23 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFBE1D4F2378D97EF654838B059E7D54 /* Pods-Lecture08-PuppyFlixUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8AD766DB2858714FF310CAFDAD91CE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A067C137ECE09CFF8506C5C1EA6B5505 /* Pods-Lecture08-PuppyFlix-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1A8B5FE55C5AAC5130E407B444F3D0B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38404F7F07FE05DA568BBE4D7C97EC90 /* Pods-Lecture08-PuppyFlixTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9D8E3C03C9A690FBD206C7EAE2F5F5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16D32E29FD981AB1F55B1670C99B4463 /* TUSafariActivity-umbrella.h in Headers */,
+				783EFBC9F8C538C2A1F9EA13C3875BD0 /* TUSafariActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0993814DC5581066B9825D417B2BB864 /* Pods-Lecture08-PuppyFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8449F695DBD01D70CB1AD6A2FCA64AAE /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlixUITests" */;
+			buildPhases = (
+				EEA3606B0A098465B2636901C0582843 /* Sources */,
+				AF8E23B83477DAA87F5D12E35C33C718 /* Frameworks */,
+				1238D8D11B3F926795BAD937313FAF23 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lecture08-PuppyFlixUITests";
+			productName = "Pods-Lecture08-PuppyFlixUITests";
+			productReference = 320D69A546BE6FDA9AA51FA2E522978C /* Pods_Lecture08_PuppyFlixUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6F039A27FC4856548F592A17EB57E3C9 /* Pods-Lecture08-PuppyFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72D60D70BA490AE815414841C96E3A6B /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlix" */;
+			buildPhases = (
+				DA6390F832F71635BD298549E6AA0968 /* Sources */,
+				F2157FEE1475588F806536519EC3EE59 /* Frameworks */,
+				A8AD766DB2858714FF310CAFDAD91CE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BBAA62E93C66E1633ECBAC04BF803E0 /* PBXTargetDependency */,
+			);
+			name = "Pods-Lecture08-PuppyFlix";
+			productName = "Pods-Lecture08-PuppyFlix";
+			productReference = C42B7BC2FAECED629A6DA61C1CB6EB1A /* Pods_Lecture08_PuppyFlix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		833EB4C513DBE5FA2DBF1E910C0EB051 /* TUSafariActivity-TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75936E7ED6DB1A5112D3F3B548D0F73F /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */;
+			buildPhases = (
+				D48D01F79AC1990DE72ED56A1629938C /* Sources */,
+				383C18BCDF0F3A9C8C032506B5FC177D /* Frameworks */,
+				A096BE6A1D40F3575459D14141A54A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUSafariActivity-TUSafariActivity";
+			productName = "TUSafariActivity-TUSafariActivity";
+			productReference = 2003F6D7B59F52ACF7366CB8FDD459E1 /* TUSafariActivity.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A2E5AFCFCFF898DDA5F5DE5A2B880BFB /* TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36B9C5AB6B0AEF51F794B1A37575F1FE /* Build configuration list for PBXNativeTarget "TUSafariActivity" */;
+			buildPhases = (
+				45547C5C41D37394D7B373D2CA5B3EEC /* Sources */,
+				F7F64908570AFA73E9EB53704E869FB6 /* Frameworks */,
+				D4DA6343442FCD57D57963AF88417862 /* Resources */,
+				C9D8E3C03C9A690FBD206C7EAE2F5F5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AF7A4566A50453B048B950201B5BACE /* PBXTargetDependency */,
+			);
+			name = TUSafariActivity;
+			productName = TUSafariActivity;
+			productReference = 82DE59109D91680AE1935A392BC42F51 /* TUSafariActivity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BE27A340CBAA88EB9B3DB76539DC26B0 /* Pods-Lecture08-PuppyFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB819554F8A9FA3B785264865026D49C /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlixTests" */;
+			buildPhases = (
+				5C269546846ABD92283D23F22DCAFD0E /* Sources */,
+				D9C5E578D4C118F227468B66559ED643 /* Frameworks */,
+				C1A8B5FE55C5AAC5130E407B444F3D0B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Lecture08-PuppyFlixTests";
+			productName = "Pods-Lecture08-PuppyFlixTests";
+			productReference = FF75A0C2392F6B7FAF3E5EEAAE0D7339 /* Pods_Lecture08_PuppyFlixTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 162593255C4CD5DD8FD39DD3A78F8A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6F039A27FC4856548F592A17EB57E3C9 /* Pods-Lecture08-PuppyFlix */,
+				BE27A340CBAA88EB9B3DB76539DC26B0 /* Pods-Lecture08-PuppyFlixTests */,
+				0993814DC5581066B9825D417B2BB864 /* Pods-Lecture08-PuppyFlixUITests */,
+				A2E5AFCFCFF898DDA5F5DE5A2B880BFB /* TUSafariActivity */,
+				833EB4C513DBE5FA2DBF1E910C0EB051 /* TUSafariActivity-TUSafariActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A096BE6A1D40F3575459D14141A54A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92B2EEE56CE28B63E7A794EC770E1750 /* cs.lproj in Resources */,
+				A307CEC73BAF5D03EBDA641955D2DE46 /* de.lproj in Resources */,
+				EF7854AFCEEB9844647E8B61641412E1 /* en.lproj in Resources */,
+				736AE5A4FD3D4154E71DEEB37127C169 /* es.lproj in Resources */,
+				3A929843EC251686CD6BDCE5035E4B6E /* eu.lproj in Resources */,
+				9BA051E8E464B5E5A98D451445E8C1F5 /* fi.lproj in Resources */,
+				0602F9366D31D13C91A9766BAB07DEDC /* fr.lproj in Resources */,
+				C3F869D1D45D7C54C0ED929FA73D9B42 /* it.lproj in Resources */,
+				66C18858A8B2B9D4C795F6BA6F6FB044 /* ja.lproj in Resources */,
+				DAAE8DA4D8F950B5C1D49F3A5A2EFEE2 /* ko.lproj in Resources */,
+				C772709E5306919452F834EEE4C4D425 /* nl.lproj in Resources */,
+				63909C564A17F5446B3A1435D832DE58 /* no.lproj in Resources */,
+				44BB7A3DA94298883E48AE140F2C1C1A /* pl.lproj in Resources */,
+				390C2EE4B60CF1E5064141566300E6DB /* pt.lproj in Resources */,
+				C3A931D4BCCD4BAD0EDB08E2A3678D56 /* ru.lproj in Resources */,
+				10340AB213CFBE2C7DBF65775CF565AE /* safari-7.png in Resources */,
+				48A09961CF1418FD711125CAB4A0F83F /* safari-7@2x.png in Resources */,
+				98EFDAF71F534E32574743177BB3B1B8 /* safari-7@3x.png in Resources */,
+				C324BDD0377B438CE71BAE6594240F4D /* safari-7~iPad.png in Resources */,
+				6C51AD02D0BA84BD4A791F4667CAA3EA /* safari-7~iPad@2x.png in Resources */,
+				7A4464B12D8BD54BF16879EC51A480F5 /* safari.png in Resources */,
+				FCDED471F112E76CE4B4ADDB52559D23 /* safari@2x.png in Resources */,
+				A9962A9C83A6D8D25FA91E56706A8FCF /* safari@3x.png in Resources */,
+				FCF50B625DF080D36B6B52BE4C41E5D0 /* safari~iPad.png in Resources */,
+				E3F20019BE17317A2C20C5103C765C1A /* safari~iPad@2x.png in Resources */,
+				156B831414528203129D1B6697A03255 /* sk.lproj in Resources */,
+				F2BE2671C154AE2426C0E6E2D1FA4C8C /* sv.lproj in Resources */,
+				6F1BC71BD7C15DD5AB79EB75E8A73879 /* vi.lproj in Resources */,
+				1511212CDFB1F26617C095A0CAFE2120 /* zh_CN.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4DA6343442FCD57D57963AF88417862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD3EB9560F50ACAF4E1AE34848DFBC2 /* TUSafariActivity.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45547C5C41D37394D7B373D2CA5B3EEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344764CD5CAAB1EFDC21EFA56BCA7836 /* TUSafariActivity-dummy.m in Sources */,
+				DC04A83CD8ACCA96A09FAA856DBBA088 /* TUSafariActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C269546846ABD92283D23F22DCAFD0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27AE107E5E75197EA83B6B7E3FABB7B2 /* Pods-Lecture08-PuppyFlixTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D48D01F79AC1990DE72ED56A1629938C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6390F832F71635BD298549E6AA0968 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1A61DCCD1012CABA29A6EEE0D88B02 /* Pods-Lecture08-PuppyFlix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA3606B0A098465B2636901C0582843 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED0F46B9B3721B6A63BAED7236CAB060 /* Pods-Lecture08-PuppyFlixUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AF7A4566A50453B048B950201B5BACE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TUSafariActivity-TUSafariActivity";
+			target = 833EB4C513DBE5FA2DBF1E910C0EB051 /* TUSafariActivity-TUSafariActivity */;
+			targetProxy = 4720D8F469B6A452DDA8128AF5967965 /* PBXContainerItemProxy */;
+		};
+		9BBAA62E93C66E1633ECBAC04BF803E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TUSafariActivity;
+			target = A2E5AFCFCFF898DDA5F5DE5A2B880BFB /* TUSafariActivity */;
+			targetProxy = B71C09377D7AF988ACAB541DD6595CCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BB819E3186B934596AF53DBD567993E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A467F476E340EA19FBA1B2E869A382F4 /* Pods-Lecture08-PuppyFlixTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlixTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		253F383A0E8A7DB5A70B52811ED555BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C3DB099448D28580E0EAC5D04AA1942 /* Pods-Lecture08-PuppyFlixTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixTests/Pods-Lecture08-PuppyFlixTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlixTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3796C9D86B0F9041EB111BD5FD81796C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3FA451D268613890FA8A5A03801E11D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488EE3513DDDB47DFDB7CB7BB47F4458 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5D5DA9ECEEF02F3E5576A3CA8DC51026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 826A68B09294BA2B1C6DC0F56C4ED582 /* Pods-Lecture08-PuppyFlixUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixUITests/Pods-Lecture08-PuppyFlixUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlixUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6E5BA122A6A9A9F65E520B97A6DFE004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCD7EE56B8DD8FE637BFC52D229E4D14 /* Pods-Lecture08-PuppyFlix.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9E1B3D95C4239538CAF1B2ED74B6BCEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		EC8C10A374098279D34DA27FF9F15473 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A99B17C21F5693BFE8A37DE30C533965 /* Pods-Lecture08-PuppyFlix.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlix/Pods-Lecture08-PuppyFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F69973140ACE94AAEC060E8BE6EE32A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A31DFFD7940B04A292958DAB75CF8CD /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FFDB7E495DD83C28DFD4AE12E3C811EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3C163992A7A7F79AC92B192FF6D2F37 /* Pods-Lecture08-PuppyFlixUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Lecture08-PuppyFlixUITests/Pods-Lecture08-PuppyFlixUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Lecture08_PuppyFlixUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E62115DE8C09934BF8D2FE5D15FED1E /* Debug */,
+				3FA451D268613890FA8A5A03801E11D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36B9C5AB6B0AEF51F794B1A37575F1FE /* Build configuration list for PBXNativeTarget "TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69973140ACE94AAEC060E8BE6EE32A6 /* Debug */,
+				3796C9D86B0F9041EB111BD5FD81796C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72D60D70BA490AE815414841C96E3A6B /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5BA122A6A9A9F65E520B97A6DFE004 /* Debug */,
+				EC8C10A374098279D34DA27FF9F15473 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75936E7ED6DB1A5112D3F3B548D0F73F /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1B3D95C4239538CAF1B2ED74B6BCEC /* Debug */,
+				488EE3513DDDB47DFDB7CB7BB47F4458 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8449F695DBD01D70CB1AD6A2FCA64AAE /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDB7E495DD83C28DFD4AE12E3C811EB /* Debug */,
+				5D5DA9ECEEF02F3E5576A3CA8DC51026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB819554F8A9FA3B785264865026D49C /* Build configuration list for PBXNativeTarget "Pods-Lecture08-PuppyFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				253F383A0E8A7DB5A70B52811ED555BF /* Debug */,
+				0BB819E3186B934596AF53DBD567993E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

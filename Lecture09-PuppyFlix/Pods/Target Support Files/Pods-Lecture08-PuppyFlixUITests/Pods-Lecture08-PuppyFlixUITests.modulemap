@@ -1,0 +1,6 @@
+framework module Pods_Lecture08_PuppyFlixUITests {
+  umbrella header "Pods-Lecture08-PuppyFlixUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

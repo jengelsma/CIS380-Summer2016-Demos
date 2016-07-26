@@ -9,12 +9,14 @@
 import UIKit
 import Accounts
 import Social
+import SwiftyJSON
 
 
 class StreamViewController: UITableViewController {
     
     var account: ACAccount!
-    var updates: NSArray!
+    //var updates: NSArray!
+    var updates: JSON?
 
 
     override func viewDidLoad() {
@@ -46,6 +48,25 @@ class StreamViewController: UITableViewController {
         request.account = self.account
         request.performRequestWithHandler { (response: NSData!, urlResponse: NSHTTPURLResponse!, error:NSError!) -> Void in
             if urlResponse.statusCode == 200 {
+                self.updates = JSON(data: response)
+                dispatch_async(dispatch_get_main_queue(), { () -> Void in
+                    self.tableView.reloadData()
+                })
+            }
+        }
+    }
+
+    
+    /*
+    func retrieveTweetStream()
+    {
+        let url = NSURL(string: "https://api.twitter.com/1.1/statuses/user_timeline.json")
+        let params : [NSObject:AnyObject]! = ["screen_name" : self.account.username]
+        let request : SLRequest = SLRequest(forServiceType: SLServiceTypeTwitter,
+                                            requestMethod: SLRequestMethod.GET, URL: url, parameters: params)
+        request.account = self.account
+        request.performRequestWithHandler { (response: NSData!, urlResponse: NSHTTPURLResponse!, error:NSError!) -> Void in
+            if urlResponse.statusCode == 200 {
                 let parsedObject: AnyObject?
                 do {
                     parsedObject = try NSJSONSerialization.JSONObjectWithData(response,
@@ -66,6 +87,7 @@ class StreamViewController: UITableViewController {
             }
         }    
     }
+ */
 
     func postTweet()
     {
@@ -86,8 +108,24 @@ class StreamViewController: UITableViewController {
         // Return the number of sections.
         return 1
     }
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        if let tweets = self.updates  {
+            return tweets.count
+        } else {
+            return 0
+        }
+    }
     
     
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCellWithIdentifier("Cell", forIndexPath: indexPath)
+        cell.textLabel!.text = self.updates![indexPath.row]["text"].string
+        cell.detailTextLabel!.text = self.updates![indexPath.row]["user"]["name"].string
+        return cell
+    }
+
+    
+  /*
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         if self.updates != nil {
             return self.updates.count
@@ -104,7 +142,7 @@ class StreamViewController: UITableViewController {
         cell.detailTextLabel!.text = update["user"]!["name"]! as? String
         return cell
     }
-
+*/
 
 //    override func numberOfSectionsInTableView(tableView: UITableView) -> Int {
 //        // #warning Incomplete implementation, return the number of sections

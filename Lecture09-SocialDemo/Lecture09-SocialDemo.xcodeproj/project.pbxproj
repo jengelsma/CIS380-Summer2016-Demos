@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07C18135E255FB4507211CA6 /* Pods_Lecture09_SocialDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E009D231E2323F5C102B1D67 /* Pods_Lecture09_SocialDemoTests.framework */; };
+		6573B2389372C86A4CFF82A2 /* Pods_Lecture09_SocialDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACFDAFC6F593C4218446AE20 /* Pods_Lecture09_SocialDemoUITests.framework */; };
+		9141D8696EF10853DE8CBABB /* Pods_Lecture09_SocialDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF45759FD8A2ED753C41403A /* Pods_Lecture09_SocialDemo.framework */; };
 		9E8DDA4A1D478E4800B9A12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DDA491D478E4800B9A12E /* AppDelegate.swift */; };
 		9E8DDA4C1D478E4800B9A12E /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DDA4B1D478E4800B9A12E /* MasterViewController.swift */; };
 		9E8DDA4E1D478E4800B9A12E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8DDA4D1D478E4800B9A12E /* DetailViewController.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14E9516250BC860E7419A6B3 /* Pods-Lecture09-SocialDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemo/Pods-Lecture09-SocialDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3A0BBD35346D27316288999A /* Pods-Lecture09-SocialDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemoTests/Pods-Lecture09-SocialDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1E578406142A3528815C96 /* Pods-Lecture09-SocialDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemoTests/Pods-Lecture09-SocialDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		9E8DDA461D478E4800B9A12E /* Lecture09-SocialDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecture09-SocialDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E8DDA491D478E4800B9A12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9E8DDA4B1D478E4800B9A12E /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +61,12 @@
 		9E8DDA791D478F6900B9A12E /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		9E8DDA7B1D478F7000B9A12E /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		9E8DDA7D1D47927E00B9A12E /* StreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		ACFDAFC6F593C4218446AE20 /* Pods_Lecture09_SocialDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture09_SocialDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3417D80094BABE3D3F3185D /* Pods-Lecture09-SocialDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemoUITests/Pods-Lecture09-SocialDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF45759FD8A2ED753C41403A /* Pods_Lecture09_SocialDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture09_SocialDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E009D231E2323F5C102B1D67 /* Pods_Lecture09_SocialDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lecture09_SocialDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8DEA77156F861375652BA36 /* Pods-Lecture09-SocialDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemo/Pods-Lecture09-SocialDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF9B232461193A178CC8E69 /* Pods-Lecture09-SocialDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lecture09-SocialDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lecture09-SocialDemoUITests/Pods-Lecture09-SocialDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +76,7 @@
 			files = (
 				9E8DDA7C1D478F7000B9A12E /* Social.framework in Frameworks */,
 				9E8DDA7A1D478F6900B9A12E /* Accounts.framework in Frameworks */,
+				9141D8696EF10853DE8CBABB /* Pods_Lecture09_SocialDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07C18135E255FB4507211CA6 /* Pods_Lecture09_SocialDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +92,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6573B2389372C86A4CFF82A2 /* Pods_Lecture09_SocialDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18454353CA053AE12AAC1292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8DEA77156F861375652BA36 /* Pods-Lecture09-SocialDemo.debug.xcconfig */,
+				14E9516250BC860E7419A6B3 /* Pods-Lecture09-SocialDemo.release.xcconfig */,
+				3A0BBD35346D27316288999A /* Pods-Lecture09-SocialDemoTests.debug.xcconfig */,
+				3F1E578406142A3528815C96 /* Pods-Lecture09-SocialDemoTests.release.xcconfig */,
+				D3417D80094BABE3D3F3185D /* Pods-Lecture09-SocialDemoUITests.debug.xcconfig */,
+				ECF9B232461193A178CC8E69 /* Pods-Lecture09-SocialDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9E8DDA3D1D478E4800B9A12E = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +121,8 @@
 				9E8DDA5F1D478E4900B9A12E /* Lecture09-SocialDemoTests */,
 				9E8DDA6A1D478E4900B9A12E /* Lecture09-SocialDemoUITests */,
 				9E8DDA471D478E4800B9A12E /* Products */,
+				18454353CA053AE12AAC1292 /* Pods */,
+				B33EF793BBB0CA8172435948 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +169,16 @@
 			path = "Lecture09-SocialDemoUITests";
 			sourceTree = "<group>";
 		};
+		B33EF793BBB0CA8172435948 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF45759FD8A2ED753C41403A /* Pods_Lecture09_SocialDemo.framework */,
+				E009D231E2323F5C102B1D67 /* Pods_Lecture09_SocialDemoTests.framework */,
+				ACFDAFC6F593C4218446AE20 /* Pods_Lecture09_SocialDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +186,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8DDA701D478E4900B9A12E /* Build configuration list for PBXNativeTarget "Lecture09-SocialDemo" */;
 			buildPhases = (
+				F315AB3DDFDD424F285EAFCF /* [CP] Check Pods Manifest.lock */,
 				9E8DDA421D478E4800B9A12E /* Sources */,
 				9E8DDA431D478E4800B9A12E /* Frameworks */,
 				9E8DDA441D478E4800B9A12E /* Resources */,
+				55F03CE6BABA2C92BA089C3B /* [CP] Embed Pods Frameworks */,
+				0FB126F8D4153C0F11FB66F0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,9 +206,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8DDA731D478E4900B9A12E /* Build configuration list for PBXNativeTarget "Lecture09-SocialDemoTests" */;
 			buildPhases = (
+				9736F3166F60F8295937FC53 /* [CP] Check Pods Manifest.lock */,
 				9E8DDA581D478E4900B9A12E /* Sources */,
 				9E8DDA591D478E4900B9A12E /* Frameworks */,
 				9E8DDA5A1D478E4900B9A12E /* Resources */,
+				A78180ED59029A854AF19E43 /* [CP] Embed Pods Frameworks */,
+				CF9879456EECACCD655EDB4A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -181,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E8DDA761D478E4900B9A12E /* Build configuration list for PBXNativeTarget "Lecture09-SocialDemoUITests" */;
 			buildPhases = (
+				C27AFF646754011FA759B0ED /* [CP] Check Pods Manifest.lock */,
 				9E8DDA631D478E4900B9A12E /* Sources */,
 				9E8DDA641D478E4900B9A12E /* Frameworks */,
 				9E8DDA651D478E4900B9A12E /* Resources */,
+				E6C9081932A50F1CA411C15C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FB126F8D4153C0F11FB66F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture09-SocialDemo/Pods-Lecture09-SocialDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55F03CE6BABA2C92BA089C3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture09-SocialDemo/Pods-Lecture09-SocialDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9736F3166F60F8295937FC53 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A78180ED59029A854AF19E43 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture09-SocialDemoTests/Pods-Lecture09-SocialDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27AFF646754011FA759B0ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9879456EECACCD655EDB4A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture09-SocialDemoTests/Pods-Lecture09-SocialDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6C9081932A50F1CA411C15C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lecture09-SocialDemoUITests/Pods-Lecture09-SocialDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F315AB3DDFDD424F285EAFCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E8DDA421D478E4800B9A12E /* Sources */ = {
@@ -415,6 +586,7 @@
 		};
 		9E8DDA711D478E4900B9A12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8DEA77156F861375652BA36 /* Pods-Lecture09-SocialDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Lecture09-SocialDemo/Info.plist";
@@ -426,6 +598,7 @@
 		};
 		9E8DDA721D478E4900B9A12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E9516250BC860E7419A6B3 /* Pods-Lecture09-SocialDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Lecture09-SocialDemo/Info.plist";
@@ -437,6 +610,7 @@
 		};
 		9E8DDA741D478E4900B9A12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A0BBD35346D27316288999A /* Pods-Lecture09-SocialDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Lecture09-SocialDemoTests/Info.plist";
@@ -449,6 +623,7 @@
 		};
 		9E8DDA751D478E4900B9A12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1E578406142A3528815C96 /* Pods-Lecture09-SocialDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "Lecture09-SocialDemoTests/Info.plist";
@@ -461,6 +636,7 @@
 		};
 		9E8DDA771D478E4900B9A12E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3417D80094BABE3D3F3185D /* Pods-Lecture09-SocialDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Lecture09-SocialDemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -472,6 +648,7 @@
 		};
 		9E8DDA781D478E4900B9A12E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECF9B232461193A178CC8E69 /* Pods-Lecture09-SocialDemoUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = "Lecture09-SocialDemoUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -500,6 +677,7 @@
 				9E8DDA721D478E4900B9A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E8DDA731D478E4900B9A12E /* Build configuration list for PBXNativeTarget "Lecture09-SocialDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +686,7 @@
 				9E8DDA751D478E4900B9A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E8DDA761D478E4900B9A12E /* Build configuration list for PBXNativeTarget "Lecture09-SocialDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +695,7 @@
 				9E8DDA781D478E4900B9A12E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
