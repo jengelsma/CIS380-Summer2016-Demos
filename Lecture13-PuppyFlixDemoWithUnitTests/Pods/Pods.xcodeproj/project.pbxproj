@@ -1,0 +1,1322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0535C15F094C8B447CD04878FE49DDBB /* no.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 57C93857B03E656AAA75828CD7AAA3D0 /* no.lproj */; };
+		1120467A9564DE115B24014D87A5AB72 /* es.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 1360C2F43CA40764A418CE364DAE7357 /* es.lproj */; };
+		137BFA6EAF96C111A52BD6015A9E4384 /* TUSafariActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5E716F711AC59425BB05AD06ED554966 /* TUSafariActivity.bundle */; };
+		1508A51573D95D81B5A8C0FC6AC06453 /* TUSafariActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = D60EBE5222CB494136FD27F371D612C5 /* TUSafariActivity.m */; };
+		1609FB1E39FB127D5F355BD97FDE0EE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		1D96A9E78787F23E00744EFA36F9BE4B /* OHPathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EBCCB83E1C0D6E620DF5BA784383410 /* OHPathHelpers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		279C4BE9DF11B173F82F2126C10599FF /* zh_CN.lproj in Resources */ = {isa = PBXBuildFile; fileRef = CA938F71BDFBC12B8AC501B0A8EC352A /* zh_CN.lproj */; };
+		279F6EF177415ECEEC0986802818F55D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		29C1EF3BBEA582AF45B5A095A878A9B7 /* Pods-PuppyFlix-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC57E68DEFCD27C2C715E7C12C6DD133 /* Pods-PuppyFlix-dummy.m */; };
+		2ECB7AB7FFA667AC84CEEB2899208E7A /* Pods-PuppyFlix-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5022471E356F610DBFC55A045BAF245 /* Pods-PuppyFlix-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310FF4E9443AD171B2D6DB8DAA39A1F5 /* de.lproj in Resources */ = {isa = PBXBuildFile; fileRef = D21C075936F509B034565E212B41F012 /* de.lproj */; };
+		33FD82DE326D844BC1A797D1813C2FCF /* safari@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4606BA51B5C010B26EC36004509B5F1D /* safari@2x.png */; };
+		380D45B66CEDF2C64EADA916FD9FFE43 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = EC7399ED47E3901F591F0B4C64D685D3 /* OHHTTPStubs+NSURLSessionConfiguration.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		3950982C1BAD8F9AB9C528A928F8898D /* safari-7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C27EA073E937B0FE8A7B12E9D1479432 /* safari-7@2x.png */; };
+		3DF1B6BB8DC01127C24554FE4B6099FF /* TUSafariActivity-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D06FC3158E5463A39C3F9E7AD3D85B2B /* TUSafariActivity-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E578EB3703730CE25042F165BD8D1AB /* ja.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 697614C5253BD21F6E9C45C0F7499DE1 /* ja.lproj */; };
+		433AAF0AA24B727E9CA441D5FC5CB686 /* TUSafariActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = AAB44C0E48056774ED83F2C0206951E6 /* TUSafariActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474F70E92CD8526D8D73EC83C2F42D1A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */; };
+		475074F6B24477CDB26F43E9C3AD98A2 /* safari~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = F98A7A688DF880E02BDF8A0C843992D0 /* safari~iPad.png */; };
+		4D00A467763C64D7513156AF05F46409 /* ko.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 0BE5E141832FC3A8DDDB3447C41909F2 /* ko.lproj */; };
+		4F447DD8FCA710944128D0524E283872 /* Pods-PuppyFlixTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 801019C2016FACEC96E166A3B36057F9 /* Pods-PuppyFlixTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5353CB63A775DC068F49D81C47734EB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		55A3FAB1986CE946F7572A39F9A3F7D1 /* safari@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CDDB96F4F74B0B9B516C8938466BE530 /* safari@3x.png */; };
+		5690D40841F5CBD63487E86DEDEB121E /* eu.lproj in Resources */ = {isa = PBXBuildFile; fileRef = EEC01CFDF2A59BE5C6BADBC013734CEF /* eu.lproj */; };
+		648A315E6C4EDA19D909DE6FD58B9ACD /* OHHTTPStubsSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C233BC0B844F3AB1B1DBBB741C741DE9 /* OHHTTPStubsSwift.swift */; };
+		6B81C5CC7505219C4AED9513C9EA24BA /* Pods-PuppyFlixUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E72C44D6083BCB4C98CC738E070BE2D8 /* Pods-PuppyFlixUITests-dummy.m */; };
+		70E45A9870C463BDEFD7019F5FF32D03 /* OHHTTPStubsResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = B28D75C6F3572176B369C3F95B26A94B /* OHHTTPStubsResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7295F4E873343EADA45624FBE94D2F74 /* OHHTTPStubsResponse+JSON.h in Headers */ = {isa = PBXBuildFile; fileRef = E8F90E9D4B3BF89C0CA6319237C4FC66 /* OHHTTPStubsResponse+JSON.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72F759270EF6C47FC757F5B48DE73A2D /* TUSafariActivity-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E07589B869B4979853A9A8A5371A9F49 /* TUSafariActivity-dummy.m */; };
+		89622F4921DF760467EB91929971C7AB /* pt.lproj in Resources */ = {isa = PBXBuildFile; fileRef = A86192264B0C62D1F572C6C97EEC8D5E /* pt.lproj */; };
+		8B1B6B12FC0D3E728ED79071019974A1 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6CDA15E52D1E1E66D932ACBBF7461D79 /* en.lproj */; };
+		8D4026CE7290B3A91C1E74A8AB3ACD1E /* OHHTTPStubs.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D46049AE844933267B744BA31681666 /* OHHTTPStubs.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		929644D01D7952939A64447827EBA50A /* OHHTTPStubs-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F7B98B47B1E5E111D88F339424A74807 /* OHHTTPStubs-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99EA1E62132DBF0F8959A03631AAF1F7 /* it.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 467D1B50AF9204343999B6ED5D1EB9CB /* it.lproj */; };
+		9B48B52BD299BA0E103E724269FF102C /* ru.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 95C90A33A1DA88BF5E553CD55798966A /* ru.lproj */; };
+		9EF1647301C134178C8259109074FE26 /* fr.lproj in Resources */ = {isa = PBXBuildFile; fileRef = E9655DFF471C6859A2664010391179BE /* fr.lproj */; };
+		A128170B96D8976BE9FBC56FACBAC976 /* sv.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FB747B0693AEB09999AF46433177C07F /* sv.lproj */; };
+		A26807A637DDDBEC6257D8EC0491CDE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		A299750E2073F38635FF5719F4911F22 /* fi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 6FE97A6DE15936243C70E959F1A33742 /* fi.lproj */; };
+		A55CA844040F51903E34AC42440C8F61 /* vi.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 594E0AA77CAFF020BD368E6E7C0CCC4D /* vi.lproj */; };
+		A650DDF61E0F153B4D6443C3E004BB82 /* safari-7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEFD1F025F4325A4F2D8C5EDCC366C0F /* safari-7@3x.png */; };
+		AA67CCF3BFC3D7988D8646BDF71AB33C /* nl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 618CB08A504CD94BFCAFA1830E9857A7 /* nl.lproj */; };
+		ABEF8F340C85FEA5B79F44A53857C4AD /* safari.png in Resources */ = {isa = PBXBuildFile; fileRef = 032924B5E531464534C7E61BFE7A2BA7 /* safari.png */; };
+		AE0E934694C466D2578063E0A1DB9475 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */; };
+		B8627D6566F2824244EC8E30650BCF42 /* OHPathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = D45938B4DDFC71044FFD2E78A840C1CF /* OHPathHelpers.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		BA769A44770E2A22542D8A7612AC29CC /* safari-7~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CEBF03B09B8A7D792B60E979B49AA4CB /* safari-7~iPad@2x.png */; };
+		BB073481A7C64EA01FC5BEFD8F10215D /* Pods-PuppyFlixTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FA01DFE5529F9AB0C8FB68C644CF252 /* Pods-PuppyFlixTests-dummy.m */; };
+		BD4B7785AFDF22EB00D17F94C79ED5EC /* safari~iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 235B4979C96FBC27788DFA1B84410990 /* safari~iPad@2x.png */; };
+		C53878D8B8DACC3BF70462645B620449 /* OHHTTPStubs.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AAA425B8647C2AB33F6D01613F5600 /* OHHTTPStubs.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CD6210E69A05E5DBB76D1589A9A0A3CF /* sk.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 7B5AD857069EC7F7DCA00D347F419213 /* sk.lproj */; };
+		CD7D37C6D52BA8D33692F2E427DCAEF7 /* cs.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 934DC604E1B571154325AC2A12ACF2E4 /* cs.lproj */; };
+		DF715039D7874D89E872079F093A86E9 /* Pods-PuppyFlixUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A140636A4958C7090E70CDDB567F5ABC /* Pods-PuppyFlixUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2983F9469D0FF8613168F254D0D9390 /* safari-7~iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BAAAC242AE69F9F43D7EA0BB21CA4ED /* safari-7~iPad.png */; };
+		E3D17BC19B8C3D09FE41A160620882B3 /* OHHTTPStubsResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 884CBE52FD11DBAA8E7C4B8C2CD50CCA /* OHHTTPStubsResponse.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E55A2EEF04662CB1628DA5754F2A4157 /* Compatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6339C8961E8FB53C621E9997095163BD /* Compatibility.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB2B3486C424283C026551BF6939A50A /* OHHTTPStubsResponse+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B77DBC71D134D4030B983DC52B6BCE0 /* OHHTTPStubsResponse+JSON.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEE62AEA24528B05B2AD9F6C488F4B65 /* safari-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 44B099CE63D0A1AFDF9291B811D92BF0 /* safari-7.png */; };
+		F6E08E3ECF05C74C078724791DB78883 /* OHHTTPStubs-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 877CA2B39AD6CA52407CFDBC71CB1CC9 /* OHHTTPStubs-dummy.m */; };
+		F8E60AFBF6D9A5D6549D3665F20F73C1 /* pl.lproj in Resources */ = {isa = PBXBuildFile; fileRef = FC1061E18DC67569B726B1848BB22B93 /* pl.lproj */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2545D77396DA2F61F66ECC0C16D919D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65068B06081E7C3728E201FD9DED25E5;
+			remoteInfo = OHHTTPStubs;
+		};
+		89772AD5DDDBF7FC154B98B09912E47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 526454BE5C72DB0ED897B7CC6BC48A60;
+			remoteInfo = TUSafariActivity;
+		};
+		C4AA250BDD45DF79AE45C21911C0F3B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65068B06081E7C3728E201FD9DED25E5;
+			remoteInfo = OHHTTPStubs;
+		};
+		E07A43D58646640D24AD1391B9BC2753 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A31544C0E711F83797DBD224C23656E;
+			remoteInfo = "TUSafariActivity-TUSafariActivity";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00880068EB80D488DBFFB1C22618DCE4 /* Pods_PuppyFlix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyFlix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		032924B5E531464534C7E61BFE7A2BA7 /* safari.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = safari.png; path = Pod/Assets/safari.png; sourceTree = "<group>"; };
+		0631040929738DD851B3D3F8B23229F6 /* Pods-PuppyFlix-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlix-frameworks.sh"; sourceTree = "<group>"; };
+		0B2BCF5B10001F8CEE9CECB0595B3EB6 /* Pods-PuppyFlixUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PuppyFlixUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0BE5E141832FC3A8DDDB3447C41909F2 /* ko.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ko.lproj; path = Pod/Assets/ko.lproj; sourceTree = "<group>"; };
+		0C86497282605C91CE1F26FB97F194FE /* Pods-PuppyFlix-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlix-resources.sh"; sourceTree = "<group>"; };
+		0D46049AE844933267B744BA31681666 /* OHHTTPStubs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubs.h; path = OHHTTPStubs/Sources/OHHTTPStubs.h; sourceTree = "<group>"; };
+		1360C2F43CA40764A418CE364DAE7357 /* es.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = es.lproj; path = Pod/Assets/es.lproj; sourceTree = "<group>"; };
+		2255F12DC5AB9B2CF07EAE645A981CA4 /* TUSafariActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TUSafariActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		235B4979C96FBC27788DFA1B84410990 /* safari~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad@2x.png"; path = "Pod/Assets/safari~iPad@2x.png"; sourceTree = "<group>"; };
+		279F29AA2BC16CDF8619235B69413712 /* Pods-PuppyFlix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlix.debug.xcconfig"; sourceTree = "<group>"; };
+		2F9CF403094B758F00752995A795CB96 /* Pods-PuppyFlixUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlixUITests-resources.sh"; sourceTree = "<group>"; };
+		2FA01DFE5529F9AB0C8FB68C644CF252 /* Pods-PuppyFlixTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PuppyFlixTests-dummy.m"; sourceTree = "<group>"; };
+		3EBCCB83E1C0D6E620DF5BA784383410 /* OHPathHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHPathHelpers.h; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.h; sourceTree = "<group>"; };
+		3FEE0553D2CB351A61ECF4C6D50FBB4B /* Pods-PuppyFlixTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlixTests.release.xcconfig"; sourceTree = "<group>"; };
+		4340CF6D841F43E8670D9DC2E31C0980 /* Pods-PuppyFlix-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PuppyFlix-acknowledgements.markdown"; sourceTree = "<group>"; };
+		44B099CE63D0A1AFDF9291B811D92BF0 /* safari-7.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7.png"; path = "Pod/Assets/safari-7.png"; sourceTree = "<group>"; };
+		4606BA51B5C010B26EC36004509B5F1D /* safari@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@2x.png"; path = "Pod/Assets/safari@2x.png"; sourceTree = "<group>"; };
+		467D1B50AF9204343999B6ED5D1EB9CB /* it.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = it.lproj; path = Pod/Assets/it.lproj; sourceTree = "<group>"; };
+		4941D13498F3CFC2DD5CCBC1B7234F8A /* TUSafariActivity-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-prefix.pch"; sourceTree = "<group>"; };
+		57C93857B03E656AAA75828CD7AAA3D0 /* no.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = no.lproj; path = Pod/Assets/no.lproj; sourceTree = "<group>"; };
+		594E0AA77CAFF020BD368E6E7C0CCC4D /* vi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = vi.lproj; path = Pod/Assets/vi.lproj; sourceTree = "<group>"; };
+		5E3F731BB29A081625E020838ABCC0FA /* TUSafariActivity.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = TUSafariActivity.modulemap; sourceTree = "<group>"; };
+		5E716F711AC59425BB05AD06ED554966 /* TUSafariActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TUSafariActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		60470D52410D9A977C09124BB841C235 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		618CB08A504CD94BFCAFA1830E9857A7 /* nl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = nl.lproj; path = Pod/Assets/nl.lproj; sourceTree = "<group>"; };
+		6339C8961E8FB53C621E9997095163BD /* Compatibility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Compatibility.h; path = OHHTTPStubs/Sources/Compatibility.h; sourceTree = "<group>"; };
+		63430959E1B913FBB044917EFB474C1B /* Pods_PuppyFlixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyFlixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		672913122B9942EAA160250B439494F5 /* Pods-PuppyFlixTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PuppyFlixTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		697614C5253BD21F6E9C45C0F7499DE1 /* ja.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ja.lproj; path = Pod/Assets/ja.lproj; sourceTree = "<group>"; };
+		6A451C83DBA80F5DCEE6FAD282F27999 /* Pods-PuppyFlixUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlixUITests-frameworks.sh"; sourceTree = "<group>"; };
+		6CDA15E52D1E1E66D932ACBBF7461D79 /* en.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = en.lproj; path = Pod/Assets/en.lproj; sourceTree = "<group>"; };
+		6FE97A6DE15936243C70E959F1A33742 /* fi.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fi.lproj; path = Pod/Assets/fi.lproj; sourceTree = "<group>"; };
+		71AAA425B8647C2AB33F6D01613F5600 /* OHHTTPStubs.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubs.m; path = OHHTTPStubs/Sources/OHHTTPStubs.m; sourceTree = "<group>"; };
+		72A5600830B247ACC7CB69A64D35A8B2 /* Pods_PuppyFlixUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PuppyFlixUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75DB85AFCB7CE35FE4933B5B675B5ECB /* Pods-PuppyFlixTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlixTests-frameworks.sh"; sourceTree = "<group>"; };
+		7B5AD857069EC7F7DCA00D347F419213 /* sk.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sk.lproj; path = Pod/Assets/sk.lproj; sourceTree = "<group>"; };
+		801019C2016FACEC96E166A3B36057F9 /* Pods-PuppyFlixTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PuppyFlixTests-umbrella.h"; sourceTree = "<group>"; };
+		877CA2B39AD6CA52407CFDBC71CB1CC9 /* OHHTTPStubs-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OHHTTPStubs-dummy.m"; sourceTree = "<group>"; };
+		884CBE52FD11DBAA8E7C4B8C2CD50CCA /* OHHTTPStubsResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHHTTPStubsResponse.m; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.m; sourceTree = "<group>"; };
+		8AB93DD07C9476C444229CC7B156ADD2 /* Pods-PuppyFlixUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlixUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B77DBC71D134D4030B983DC52B6BCE0 /* OHHTTPStubsResponse+JSON.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubsResponse+JSON.m"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.m"; sourceTree = "<group>"; };
+		8F0833C477DFF6AD2A5DAF0C40B5ADC6 /* Pods-PuppyFlix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlix.release.xcconfig"; sourceTree = "<group>"; };
+		8FFF054F804B822A047F1C03206C384F /* ResourceBundle-TUSafariActivity-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TUSafariActivity-Info.plist"; sourceTree = "<group>"; };
+		926AEAE1B2053438B7362F59768F4832 /* Pods-PuppyFlixTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PuppyFlixTests.modulemap"; sourceTree = "<group>"; };
+		934DC604E1B571154325AC2A12ACF2E4 /* cs.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = cs.lproj; path = Pod/Assets/cs.lproj; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95C90A33A1DA88BF5E553CD55798966A /* ru.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = ru.lproj; path = Pod/Assets/ru.lproj; sourceTree = "<group>"; };
+		964DCA09970FDD5EAEC9AC8438B3F5B1 /* OHHTTPStubs.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = OHHTTPStubs.modulemap; sourceTree = "<group>"; };
+		9BAAAC242AE69F9F43D7EA0BB21CA4ED /* safari-7~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad.png"; path = "Pod/Assets/safari-7~iPad.png"; sourceTree = "<group>"; };
+		A140636A4958C7090E70CDDB567F5ABC /* Pods-PuppyFlixUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PuppyFlixUITests-umbrella.h"; sourceTree = "<group>"; };
+		A86192264B0C62D1F572C6C97EEC8D5E /* pt.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pt.lproj; path = Pod/Assets/pt.lproj; sourceTree = "<group>"; };
+		AAB44C0E48056774ED83F2C0206951E6 /* TUSafariActivity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TUSafariActivity.h; path = Pod/Classes/TUSafariActivity.h; sourceTree = "<group>"; };
+		AC57E68DEFCD27C2C715E7C12C6DD133 /* Pods-PuppyFlix-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PuppyFlix-dummy.m"; sourceTree = "<group>"; };
+		AE269019830E2D35214296191130D711 /* OHHTTPStubs.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = OHHTTPStubs.xcconfig; sourceTree = "<group>"; };
+		B28D75C6F3572176B369C3F95B26A94B /* OHHTTPStubsResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = OHHTTPStubsResponse.h; path = OHHTTPStubs/Sources/OHHTTPStubsResponse.h; sourceTree = "<group>"; };
+		BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TUSafariActivity.xcconfig; sourceTree = "<group>"; };
+		C233BC0B844F3AB1B1DBBB741C741DE9 /* OHHTTPStubsSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OHHTTPStubsSwift.swift; path = OHHTTPStubs/Sources/Swift/OHHTTPStubsSwift.swift; sourceTree = "<group>"; };
+		C27EA073E937B0FE8A7B12E9D1479432 /* safari-7@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@2x.png"; path = "Pod/Assets/safari-7@2x.png"; sourceTree = "<group>"; };
+		C2B53A0A71DD7E4EDD40419583358807 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA938F71BDFBC12B8AC501B0A8EC352A /* zh_CN.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = zh_CN.lproj; path = Pod/Assets/zh_CN.lproj; sourceTree = "<group>"; };
+		CDC9811F826DC7E763C41D42440B2EFE /* Pods-PuppyFlixTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PuppyFlixTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CDDB96F4F74B0B9B516C8938466BE530 /* safari@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari@3x.png"; path = "Pod/Assets/safari@3x.png"; sourceTree = "<group>"; };
+		CEBF03B09B8A7D792B60E979B49AA4CB /* safari-7~iPad@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7~iPad@2x.png"; path = "Pod/Assets/safari-7~iPad@2x.png"; sourceTree = "<group>"; };
+		D06FC3158E5463A39C3F9E7AD3D85B2B /* TUSafariActivity-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TUSafariActivity-umbrella.h"; sourceTree = "<group>"; };
+		D21C075936F509B034565E212B41F012 /* de.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = de.lproj; path = Pod/Assets/de.lproj; sourceTree = "<group>"; };
+		D45938B4DDFC71044FFD2E78A840C1CF /* OHPathHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = OHPathHelpers.m; path = OHHTTPStubs/Sources/OHPathHelpers/OHPathHelpers.m; sourceTree = "<group>"; };
+		D4B8585E87C3691D72E2EB5A78A7915D /* Pods-PuppyFlixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlixTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D60EBE5222CB494136FD27F371D612C5 /* TUSafariActivity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TUSafariActivity.m; path = Pod/Classes/TUSafariActivity.m; sourceTree = "<group>"; };
+		D6F78C7486E279E1EDE8B43F123AE859 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE5776FF729FBD34E7C3DBA5CE7D9684 /* Pods-PuppyFlix.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PuppyFlix.modulemap"; sourceTree = "<group>"; };
+		DEFD1F025F4325A4F2D8C5EDCC366C0F /* safari-7@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari-7@3x.png"; path = "Pod/Assets/safari-7@3x.png"; sourceTree = "<group>"; };
+		DF66CBC0FB9911DF5A28FF5083C0FF8D /* Pods-PuppyFlixUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-PuppyFlixUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E07589B869B4979853A9A8A5371A9F49 /* TUSafariActivity-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TUSafariActivity-dummy.m"; sourceTree = "<group>"; };
+		E72C44D6083BCB4C98CC738E070BE2D8 /* Pods-PuppyFlixUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-PuppyFlixUITests-dummy.m"; sourceTree = "<group>"; };
+		E8F90E9D4B3BF89C0CA6319237C4FC66 /* OHHTTPStubsResponse+JSON.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "OHHTTPStubsResponse+JSON.h"; path = "OHHTTPStubs/Sources/JSON/OHHTTPStubsResponse+JSON.h"; sourceTree = "<group>"; };
+		E9655DFF471C6859A2664010391179BE /* fr.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = fr.lproj; path = Pod/Assets/fr.lproj; sourceTree = "<group>"; };
+		EC7399ED47E3901F591F0B4C64D685D3 /* OHHTTPStubs+NSURLSessionConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "OHHTTPStubs+NSURLSessionConfiguration.m"; path = "OHHTTPStubs/Sources/NSURLSession/OHHTTPStubs+NSURLSessionConfiguration.m"; sourceTree = "<group>"; };
+		EEC01CFDF2A59BE5C6BADBC013734CEF /* eu.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = eu.lproj; path = Pod/Assets/eu.lproj; sourceTree = "<group>"; };
+		EFD292694E26D10CB001567EDCDD3D62 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1262335334EE7284C67A7B7C18CD70D /* Pods-PuppyFlixTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-PuppyFlixTests-resources.sh"; sourceTree = "<group>"; };
+		F25788EAD5389372CF618E3777858892 /* Pods-PuppyFlixUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-PuppyFlixUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F288DE8A8EC449F0A571EBC4C126321A /* OHHTTPStubs-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-prefix.pch"; sourceTree = "<group>"; };
+		F5022471E356F610DBFC55A045BAF245 /* Pods-PuppyFlix-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-PuppyFlix-umbrella.h"; sourceTree = "<group>"; };
+		F7B98B47B1E5E111D88F339424A74807 /* OHHTTPStubs-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OHHTTPStubs-umbrella.h"; sourceTree = "<group>"; };
+		F864D2CFE4A2FFB3C0930F5244E749A1 /* Pods-PuppyFlixUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-PuppyFlixUITests.modulemap"; sourceTree = "<group>"; };
+		F8A8CB177573A30D0ABF79FECDF218AD /* OHHTTPStubs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OHHTTPStubs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F98A7A688DF880E02BDF8A0C843992D0 /* safari~iPad.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "safari~iPad.png"; path = "Pod/Assets/safari~iPad.png"; sourceTree = "<group>"; };
+		FB747B0693AEB09999AF46433177C07F /* sv.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = sv.lproj; path = Pod/Assets/sv.lproj; sourceTree = "<group>"; };
+		FC1061E18DC67569B726B1848BB22B93 /* pl.lproj */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; name = pl.lproj; path = Pod/Assets/pl.lproj; sourceTree = "<group>"; };
+		FC7CC5C6DE59C37E147F9110F95E3787 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF572B009A98DC9E0C930349E8C410DA /* Pods-PuppyFlix-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-PuppyFlix-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24A932AEFEEE11CBDB2E4017A3325CBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1609FB1E39FB127D5F355BD97FDE0EE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39EEB452D1FFC3B8ADC1FF8B53ECF559 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				279F6EF177415ECEEC0986802818F55D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42DD6EAC6116E8D4DBCAB40347062564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0E934694C466D2578063E0A1DB9475 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56F661CE286952FB71B51618A1CF7797 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				474F70E92CD8526D8D73EC83C2F42D1A /* CFNetwork.framework in Frameworks */,
+				A26807A637DDDBEC6257D8EC0491CDE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EC8C3CE727146ABB186B41A8582D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5353CB63A775DC068F49D81C47734EB7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98F990BCFD3D9317FA028FE8D622118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1001389E94A84124ACD6EB0654039EA8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				731C3837E69C770C98B9770C7B3A4575 /* Pods-PuppyFlix */,
+				7462D96243EA08A17AF49326BFBCCA36 /* Pods-PuppyFlixTests */,
+				210BA9BBF58EC8F77A4930DA8C9B0098 /* Pods-PuppyFlixUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		210BA9BBF58EC8F77A4930DA8C9B0098 /* Pods-PuppyFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6F78C7486E279E1EDE8B43F123AE859 /* Info.plist */,
+				F864D2CFE4A2FFB3C0930F5244E749A1 /* Pods-PuppyFlixUITests.modulemap */,
+				DF66CBC0FB9911DF5A28FF5083C0FF8D /* Pods-PuppyFlixUITests-acknowledgements.markdown */,
+				0B2BCF5B10001F8CEE9CECB0595B3EB6 /* Pods-PuppyFlixUITests-acknowledgements.plist */,
+				E72C44D6083BCB4C98CC738E070BE2D8 /* Pods-PuppyFlixUITests-dummy.m */,
+				6A451C83DBA80F5DCEE6FAD282F27999 /* Pods-PuppyFlixUITests-frameworks.sh */,
+				2F9CF403094B758F00752995A795CB96 /* Pods-PuppyFlixUITests-resources.sh */,
+				A140636A4958C7090E70CDDB567F5ABC /* Pods-PuppyFlixUITests-umbrella.h */,
+				8AB93DD07C9476C444229CC7B156ADD2 /* Pods-PuppyFlixUITests.debug.xcconfig */,
+				F25788EAD5389372CF618E3777858892 /* Pods-PuppyFlixUITests.release.xcconfig */,
+			);
+			name = "Pods-PuppyFlixUITests";
+			path = "Target Support Files/Pods-PuppyFlixUITests";
+			sourceTree = "<group>";
+		};
+		2A611DAA13E9A2BBF95425A7B578FE9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2B53A0A71DD7E4EDD40419583358807 /* Info.plist */,
+				964DCA09970FDD5EAEC9AC8438B3F5B1 /* OHHTTPStubs.modulemap */,
+				AE269019830E2D35214296191130D711 /* OHHTTPStubs.xcconfig */,
+				877CA2B39AD6CA52407CFDBC71CB1CC9 /* OHHTTPStubs-dummy.m */,
+				F288DE8A8EC449F0A571EBC4C126321A /* OHHTTPStubs-prefix.pch */,
+				F7B98B47B1E5E111D88F339424A74807 /* OHHTTPStubs-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/OHHTTPStubs";
+			sourceTree = "<group>";
+		};
+		2FB276B7EAD3B19430D78C53A147D37A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				934DC604E1B571154325AC2A12ACF2E4 /* cs.lproj */,
+				D21C075936F509B034565E212B41F012 /* de.lproj */,
+				6CDA15E52D1E1E66D932ACBBF7461D79 /* en.lproj */,
+				1360C2F43CA40764A418CE364DAE7357 /* es.lproj */,
+				EEC01CFDF2A59BE5C6BADBC013734CEF /* eu.lproj */,
+				6FE97A6DE15936243C70E959F1A33742 /* fi.lproj */,
+				E9655DFF471C6859A2664010391179BE /* fr.lproj */,
+				467D1B50AF9204343999B6ED5D1EB9CB /* it.lproj */,
+				697614C5253BD21F6E9C45C0F7499DE1 /* ja.lproj */,
+				0BE5E141832FC3A8DDDB3447C41909F2 /* ko.lproj */,
+				618CB08A504CD94BFCAFA1830E9857A7 /* nl.lproj */,
+				57C93857B03E656AAA75828CD7AAA3D0 /* no.lproj */,
+				FC1061E18DC67569B726B1848BB22B93 /* pl.lproj */,
+				A86192264B0C62D1F572C6C97EEC8D5E /* pt.lproj */,
+				95C90A33A1DA88BF5E553CD55798966A /* ru.lproj */,
+				032924B5E531464534C7E61BFE7A2BA7 /* safari.png */,
+				44B099CE63D0A1AFDF9291B811D92BF0 /* safari-7.png */,
+				C27EA073E937B0FE8A7B12E9D1479432 /* safari-7@2x.png */,
+				DEFD1F025F4325A4F2D8C5EDCC366C0F /* safari-7@3x.png */,
+				9BAAAC242AE69F9F43D7EA0BB21CA4ED /* safari-7~iPad.png */,
+				CEBF03B09B8A7D792B60E979B49AA4CB /* safari-7~iPad@2x.png */,
+				4606BA51B5C010B26EC36004509B5F1D /* safari@2x.png */,
+				CDDB96F4F74B0B9B516C8938466BE530 /* safari@3x.png */,
+				F98A7A688DF880E02BDF8A0C843992D0 /* safari~iPad.png */,
+				235B4979C96FBC27788DFA1B84410990 /* safari~iPad@2x.png */,
+				7B5AD857069EC7F7DCA00D347F419213 /* sk.lproj */,
+				FB747B0693AEB09999AF46433177C07F /* sv.lproj */,
+				594E0AA77CAFF020BD368E6E7C0CCC4D /* vi.lproj */,
+				CA938F71BDFBC12B8AC501B0A8EC352A /* zh_CN.lproj */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		42AD183F0B7DC5A32D03E91F225954F3 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				232CC40B6BDED99579A8A76AF55C1F9B /* CFNetwork.framework */,
+				BC4DC3D8EFEFCB57DD743BA66A83A5F6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42AD183F0B7DC5A32D03E91F225954F3 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44EF71EA0AC7C6E4D44ED5BC82C17670 /* TUSafariActivity */ = {
+			isa = PBXGroup;
+			children = (
+				AAB44C0E48056774ED83F2C0206951E6 /* TUSafariActivity.h */,
+				D60EBE5222CB494136FD27F371D612C5 /* TUSafariActivity.m */,
+				2FB276B7EAD3B19430D78C53A147D37A /* Resources */,
+				60DF42A3C23CC8DBDE4135F3854040F3 /* Support Files */,
+			);
+			path = TUSafariActivity;
+			sourceTree = "<group>";
+		};
+		4CA686226B5BE5C7DD85206549DACA09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD96D02F545D0BC5741D6BDF1CD919F5 /* OHHTTPStubs */,
+				44EF71EA0AC7C6E4D44ED5BC82C17670 /* TUSafariActivity */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		60DF42A3C23CC8DBDE4135F3854040F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFD292694E26D10CB001567EDCDD3D62 /* Info.plist */,
+				8FFF054F804B822A047F1C03206C384F /* ResourceBundle-TUSafariActivity-Info.plist */,
+				5E3F731BB29A081625E020838ABCC0FA /* TUSafariActivity.modulemap */,
+				BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */,
+				E07589B869B4979853A9A8A5371A9F49 /* TUSafariActivity-dummy.m */,
+				4941D13498F3CFC2DD5CCBC1B7234F8A /* TUSafariActivity-prefix.pch */,
+				D06FC3158E5463A39C3F9E7AD3D85B2B /* TUSafariActivity-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TUSafariActivity";
+			sourceTree = "<group>";
+		};
+		6833C188273CB848EB568BA34294CAC5 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				E8F90E9D4B3BF89C0CA6319237C4FC66 /* OHHTTPStubsResponse+JSON.h */,
+				8B77DBC71D134D4030B983DC52B6BCE0 /* OHHTTPStubsResponse+JSON.m */,
+			);
+			name = JSON;
+			sourceTree = "<group>";
+		};
+		6A695BA04ACA080A1A74159F14411BBE /* OHPathHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				3EBCCB83E1C0D6E620DF5BA784383410 /* OHPathHelpers.h */,
+				D45938B4DDFC71044FFD2E78A840C1CF /* OHPathHelpers.m */,
+			);
+			name = OHPathHelpers;
+			sourceTree = "<group>";
+		};
+		731C3837E69C770C98B9770C7B3A4575 /* Pods-PuppyFlix */ = {
+			isa = PBXGroup;
+			children = (
+				FC7CC5C6DE59C37E147F9110F95E3787 /* Info.plist */,
+				DE5776FF729FBD34E7C3DBA5CE7D9684 /* Pods-PuppyFlix.modulemap */,
+				4340CF6D841F43E8670D9DC2E31C0980 /* Pods-PuppyFlix-acknowledgements.markdown */,
+				FF572B009A98DC9E0C930349E8C410DA /* Pods-PuppyFlix-acknowledgements.plist */,
+				AC57E68DEFCD27C2C715E7C12C6DD133 /* Pods-PuppyFlix-dummy.m */,
+				0631040929738DD851B3D3F8B23229F6 /* Pods-PuppyFlix-frameworks.sh */,
+				0C86497282605C91CE1F26FB97F194FE /* Pods-PuppyFlix-resources.sh */,
+				F5022471E356F610DBFC55A045BAF245 /* Pods-PuppyFlix-umbrella.h */,
+				279F29AA2BC16CDF8619235B69413712 /* Pods-PuppyFlix.debug.xcconfig */,
+				8F0833C477DFF6AD2A5DAF0C40B5ADC6 /* Pods-PuppyFlix.release.xcconfig */,
+			);
+			name = "Pods-PuppyFlix";
+			path = "Target Support Files/Pods-PuppyFlix";
+			sourceTree = "<group>";
+		};
+		7462D96243EA08A17AF49326BFBCCA36 /* Pods-PuppyFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				60470D52410D9A977C09124BB841C235 /* Info.plist */,
+				926AEAE1B2053438B7362F59768F4832 /* Pods-PuppyFlixTests.modulemap */,
+				CDC9811F826DC7E763C41D42440B2EFE /* Pods-PuppyFlixTests-acknowledgements.markdown */,
+				672913122B9942EAA160250B439494F5 /* Pods-PuppyFlixTests-acknowledgements.plist */,
+				2FA01DFE5529F9AB0C8FB68C644CF252 /* Pods-PuppyFlixTests-dummy.m */,
+				75DB85AFCB7CE35FE4933B5B675B5ECB /* Pods-PuppyFlixTests-frameworks.sh */,
+				F1262335334EE7284C67A7B7C18CD70D /* Pods-PuppyFlixTests-resources.sh */,
+				801019C2016FACEC96E166A3B36057F9 /* Pods-PuppyFlixTests-umbrella.h */,
+				D4B8585E87C3691D72E2EB5A78A7915D /* Pods-PuppyFlixTests.debug.xcconfig */,
+				3FEE0553D2CB351A61ECF4C6D50FBB4B /* Pods-PuppyFlixTests.release.xcconfig */,
+			);
+			name = "Pods-PuppyFlixTests";
+			path = "Target Support Files/Pods-PuppyFlixTests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4CA686226B5BE5C7DD85206549DACA09 /* Pods */,
+				BD5B0C765488FC9213BDF59527133AEF /* Products */,
+				1001389E94A84124ACD6EB0654039EA8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A6150DC229E3E7DF2FD25719FDDAF6D1 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				6339C8961E8FB53C621E9997095163BD /* Compatibility.h */,
+				0D46049AE844933267B744BA31681666 /* OHHTTPStubs.h */,
+				71AAA425B8647C2AB33F6D01613F5600 /* OHHTTPStubs.m */,
+				B28D75C6F3572176B369C3F95B26A94B /* OHHTTPStubsResponse.h */,
+				884CBE52FD11DBAA8E7C4B8C2CD50CCA /* OHHTTPStubsResponse.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BD5B0C765488FC9213BDF59527133AEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A8CB177573A30D0ABF79FECDF218AD /* OHHTTPStubs.framework */,
+				00880068EB80D488DBFFB1C22618DCE4 /* Pods_PuppyFlix.framework */,
+				63430959E1B913FBB044917EFB474C1B /* Pods_PuppyFlixTests.framework */,
+				72A5600830B247ACC7CB69A64D35A8B2 /* Pods_PuppyFlixUITests.framework */,
+				5E716F711AC59425BB05AD06ED554966 /* TUSafariActivity.bundle */,
+				2255F12DC5AB9B2CF07EAE645A981CA4 /* TUSafariActivity.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C13EE7E79F4D15FC687880B702346D8C /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C233BC0B844F3AB1B1DBBB741C741DE9 /* OHHTTPStubsSwift.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		CD96D02F545D0BC5741D6BDF1CD919F5 /* OHHTTPStubs */ = {
+			isa = PBXGroup;
+			children = (
+				A6150DC229E3E7DF2FD25719FDDAF6D1 /* Core */,
+				6833C188273CB848EB568BA34294CAC5 /* JSON */,
+				D0A1D8376E40ADB26E255BD24D80A061 /* NSURLSession */,
+				6A695BA04ACA080A1A74159F14411BBE /* OHPathHelpers */,
+				2A611DAA13E9A2BBF95425A7B578FE9D /* Support Files */,
+				C13EE7E79F4D15FC687880B702346D8C /* Swift */,
+			);
+			path = OHHTTPStubs;
+			sourceTree = "<group>";
+		};
+		D0A1D8376E40ADB26E255BD24D80A061 /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				EC7399ED47E3901F591F0B4C64D685D3 /* OHHTTPStubs+NSURLSessionConfiguration.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2B62C8869ACBC5C2C5B423C827F7FB79 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DF1B6BB8DC01127C24554FE4B6099FF /* TUSafariActivity-umbrella.h in Headers */,
+				433AAF0AA24B727E9CA441D5FC5CB686 /* TUSafariActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BE978134FC644287FA0F55B0D9D2071 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECB7AB7FFA667AC84CEEB2899208E7A /* Pods-PuppyFlix-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A22D0DA84CBEBDE5237056528071993 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55A2EEF04662CB1628DA5754F2A4157 /* Compatibility.h in Headers */,
+				929644D01D7952939A64447827EBA50A /* OHHTTPStubs-umbrella.h in Headers */,
+				8D4026CE7290B3A91C1E74A8AB3ACD1E /* OHHTTPStubs.h in Headers */,
+				7295F4E873343EADA45624FBE94D2F74 /* OHHTTPStubsResponse+JSON.h in Headers */,
+				70E45A9870C463BDEFD7019F5FF32D03 /* OHHTTPStubsResponse.h in Headers */,
+				1D96A9E78787F23E00744EFA36F9BE4B /* OHPathHelpers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D911BB83E36747B078BD1978A9ABC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F447DD8FCA710944128D0524E283872 /* Pods-PuppyFlixTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3F3B5795CE541AF377558B87BBFDF8A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF715039D7874D89E872079F093A86E9 /* Pods-PuppyFlixUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15CDFA6E19E60200F3376D48585E5943 /* Pods-PuppyFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5418F020D209D7DEFD85FD1B6016DED /* Build configuration list for PBXNativeTarget "Pods-PuppyFlixTests" */;
+			buildPhases = (
+				406272450149FA435F2C7A7A64656C61 /* Sources */,
+				24A932AEFEEE11CBDB2E4017A3325CBB /* Frameworks */,
+				C1D911BB83E36747B078BD1978A9ABC1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8231F3A7A8B1E541A2DADDAABD6276E5 /* PBXTargetDependency */,
+			);
+			name = "Pods-PuppyFlixTests";
+			productName = "Pods-PuppyFlixTests";
+			productReference = 63430959E1B913FBB044917EFB474C1B /* Pods_PuppyFlixTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2A31544C0E711F83797DBD224C23656E /* TUSafariActivity-TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2870FBDCF92666DD95C36B80D5477AA /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */;
+			buildPhases = (
+				C5D9103253F4B77ECA91F711FB6EDF98 /* Sources */,
+				D98F990BCFD3D9317FA028FE8D622118 /* Frameworks */,
+				38DC7E9EA0825A21AF0E520141953EA5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TUSafariActivity-TUSafariActivity";
+			productName = "TUSafariActivity-TUSafariActivity";
+			productReference = 5E716F711AC59425BB05AD06ED554966 /* TUSafariActivity.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		526454BE5C72DB0ED897B7CC6BC48A60 /* TUSafariActivity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 359EE69031C480006CD2910991F3E4A8 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */;
+			buildPhases = (
+				6C35CBCA28A308D48B617C28624BB8F2 /* Sources */,
+				65EC8C3CE727146ABB186B41A8582D6B /* Frameworks */,
+				CE0B4A6FC2A6CF9EB2AF3488ED385E71 /* Resources */,
+				2B62C8869ACBC5C2C5B423C827F7FB79 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B913824C09AD3E623A3F9E0B7820F3E4 /* PBXTargetDependency */,
+			);
+			name = TUSafariActivity;
+			productName = TUSafariActivity;
+			productReference = 2255F12DC5AB9B2CF07EAE645A981CA4 /* TUSafariActivity.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		65068B06081E7C3728E201FD9DED25E5 /* OHHTTPStubs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38D76E32C9FC59C27FA720DE3F3F24BC /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */;
+			buildPhases = (
+				C4E7AAFD362A0AAD91D588DB9348237B /* Sources */,
+				56F661CE286952FB71B51618A1CF7797 /* Frameworks */,
+				7A22D0DA84CBEBDE5237056528071993 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHHTTPStubs;
+			productName = OHHTTPStubs;
+			productReference = F8A8CB177573A30D0ABF79FECDF218AD /* OHHTTPStubs.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B273319FAE9040129A550986575B32B /* Pods-PuppyFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86740ABEC5303518C0AC107495534067 /* Build configuration list for PBXNativeTarget "Pods-PuppyFlix" */;
+			buildPhases = (
+				EDB65CFE3B5CCFC9BEE115EA6BCD487B /* Sources */,
+				39EEB452D1FFC3B8ADC1FF8B53ECF559 /* Frameworks */,
+				2BE978134FC644287FA0F55B0D9D2071 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9FCF9855F818045B0A88BEE37EC56041 /* PBXTargetDependency */,
+				3955AA751A373D78D477D75FCFC65425 /* PBXTargetDependency */,
+			);
+			name = "Pods-PuppyFlix";
+			productName = "Pods-PuppyFlix";
+			productReference = 00880068EB80D488DBFFB1C22618DCE4 /* Pods_PuppyFlix.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C0FA1044ED50771DD3DC71E7E1528A1B /* Pods-PuppyFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 350AB05A73B80A3B330EC3848172B433 /* Build configuration list for PBXNativeTarget "Pods-PuppyFlixUITests" */;
+			buildPhases = (
+				45ECE009C4FD36D4E3FB2B709EC55A32 /* Sources */,
+				42DD6EAC6116E8D4DBCAB40347062564 /* Frameworks */,
+				D3F3B5795CE541AF377558B87BBFDF8A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-PuppyFlixUITests";
+			productName = "Pods-PuppyFlixUITests";
+			productReference = 72A5600830B247ACC7CB69A64D35A8B2 /* Pods_PuppyFlixUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BD5B0C765488FC9213BDF59527133AEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65068B06081E7C3728E201FD9DED25E5 /* OHHTTPStubs */,
+				8B273319FAE9040129A550986575B32B /* Pods-PuppyFlix */,
+				15CDFA6E19E60200F3376D48585E5943 /* Pods-PuppyFlixTests */,
+				C0FA1044ED50771DD3DC71E7E1528A1B /* Pods-PuppyFlixUITests */,
+				526454BE5C72DB0ED897B7CC6BC48A60 /* TUSafariActivity */,
+				2A31544C0E711F83797DBD224C23656E /* TUSafariActivity-TUSafariActivity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38DC7E9EA0825A21AF0E520141953EA5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7D37C6D52BA8D33692F2E427DCAEF7 /* cs.lproj in Resources */,
+				310FF4E9443AD171B2D6DB8DAA39A1F5 /* de.lproj in Resources */,
+				8B1B6B12FC0D3E728ED79071019974A1 /* en.lproj in Resources */,
+				1120467A9564DE115B24014D87A5AB72 /* es.lproj in Resources */,
+				5690D40841F5CBD63487E86DEDEB121E /* eu.lproj in Resources */,
+				A299750E2073F38635FF5719F4911F22 /* fi.lproj in Resources */,
+				9EF1647301C134178C8259109074FE26 /* fr.lproj in Resources */,
+				99EA1E62132DBF0F8959A03631AAF1F7 /* it.lproj in Resources */,
+				3E578EB3703730CE25042F165BD8D1AB /* ja.lproj in Resources */,
+				4D00A467763C64D7513156AF05F46409 /* ko.lproj in Resources */,
+				AA67CCF3BFC3D7988D8646BDF71AB33C /* nl.lproj in Resources */,
+				0535C15F094C8B447CD04878FE49DDBB /* no.lproj in Resources */,
+				F8E60AFBF6D9A5D6549D3665F20F73C1 /* pl.lproj in Resources */,
+				89622F4921DF760467EB91929971C7AB /* pt.lproj in Resources */,
+				9B48B52BD299BA0E103E724269FF102C /* ru.lproj in Resources */,
+				EEE62AEA24528B05B2AD9F6C488F4B65 /* safari-7.png in Resources */,
+				3950982C1BAD8F9AB9C528A928F8898D /* safari-7@2x.png in Resources */,
+				A650DDF61E0F153B4D6443C3E004BB82 /* safari-7@3x.png in Resources */,
+				E2983F9469D0FF8613168F254D0D9390 /* safari-7~iPad.png in Resources */,
+				BA769A44770E2A22542D8A7612AC29CC /* safari-7~iPad@2x.png in Resources */,
+				ABEF8F340C85FEA5B79F44A53857C4AD /* safari.png in Resources */,
+				33FD82DE326D844BC1A797D1813C2FCF /* safari@2x.png in Resources */,
+				55A3FAB1986CE946F7572A39F9A3F7D1 /* safari@3x.png in Resources */,
+				475074F6B24477CDB26F43E9C3AD98A2 /* safari~iPad.png in Resources */,
+				BD4B7785AFDF22EB00D17F94C79ED5EC /* safari~iPad@2x.png in Resources */,
+				CD6210E69A05E5DBB76D1589A9A0A3CF /* sk.lproj in Resources */,
+				A128170B96D8976BE9FBC56FACBAC976 /* sv.lproj in Resources */,
+				A55CA844040F51903E34AC42440C8F61 /* vi.lproj in Resources */,
+				279C4BE9DF11B173F82F2126C10599FF /* zh_CN.lproj in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0B4A6FC2A6CF9EB2AF3488ED385E71 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				137BFA6EAF96C111A52BD6015A9E4384 /* TUSafariActivity.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		406272450149FA435F2C7A7A64656C61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB073481A7C64EA01FC5BEFD8F10215D /* Pods-PuppyFlixTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45ECE009C4FD36D4E3FB2B709EC55A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B81C5CC7505219C4AED9513C9EA24BA /* Pods-PuppyFlixUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C35CBCA28A308D48B617C28624BB8F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72F759270EF6C47FC757F5B48DE73A2D /* TUSafariActivity-dummy.m in Sources */,
+				1508A51573D95D81B5A8C0FC6AC06453 /* TUSafariActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4E7AAFD362A0AAD91D588DB9348237B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380D45B66CEDF2C64EADA916FD9FFE43 /* OHHTTPStubs+NSURLSessionConfiguration.m in Sources */,
+				F6E08E3ECF05C74C078724791DB78883 /* OHHTTPStubs-dummy.m in Sources */,
+				C53878D8B8DACC3BF70462645B620449 /* OHHTTPStubs.m in Sources */,
+				EB2B3486C424283C026551BF6939A50A /* OHHTTPStubsResponse+JSON.m in Sources */,
+				E3D17BC19B8C3D09FE41A160620882B3 /* OHHTTPStubsResponse.m in Sources */,
+				648A315E6C4EDA19D909DE6FD58B9ACD /* OHHTTPStubsSwift.swift in Sources */,
+				B8627D6566F2824244EC8E30650BCF42 /* OHPathHelpers.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D9103253F4B77ECA91F711FB6EDF98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDB65CFE3B5CCFC9BEE115EA6BCD487B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C1EF3BBEA582AF45B5A095A878A9B7 /* Pods-PuppyFlix-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3955AA751A373D78D477D75FCFC65425 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TUSafariActivity;
+			target = 526454BE5C72DB0ED897B7CC6BC48A60 /* TUSafariActivity */;
+			targetProxy = 89772AD5DDDBF7FC154B98B09912E47C /* PBXContainerItemProxy */;
+		};
+		8231F3A7A8B1E541A2DADDAABD6276E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHHTTPStubs;
+			target = 65068B06081E7C3728E201FD9DED25E5 /* OHHTTPStubs */;
+			targetProxy = C4AA250BDD45DF79AE45C21911C0F3B2 /* PBXContainerItemProxy */;
+		};
+		9FCF9855F818045B0A88BEE37EC56041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = OHHTTPStubs;
+			target = 65068B06081E7C3728E201FD9DED25E5 /* OHHTTPStubs */;
+			targetProxy = 2545D77396DA2F61F66ECC0C16D919D8 /* PBXContainerItemProxy */;
+		};
+		B913824C09AD3E623A3F9E0B7820F3E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TUSafariActivity-TUSafariActivity";
+			target = 2A31544C0E711F83797DBD224C23656E /* TUSafariActivity-TUSafariActivity */;
+			targetProxy = E07A43D58646640D24AD1391B9BC2753 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0089A7C62D90B6960F2CBF1174C6A0D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE269019830E2D35214296191130D711 /* OHHTTPStubs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs/OHHTTPStubs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		034014829C1E4434983CF3A690C12017 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		14A11E8601287ECECD538C353C6A10B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F0833C477DFF6AD2A5DAF0C40B5ADC6 /* Pods-PuppyFlix.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlix/Pods-PuppyFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		15EDA2602E69AD98A1C3C6507F0D0756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1BB830AAC7E9ECAC7D4CF5B721B2EC24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AB93DD07C9476C444229CC7B156ADD2 /* Pods-PuppyFlixUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlixUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlixUITests/Pods-PuppyFlixUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlixUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2036DCCF1687103AD53E7B5AFA31903A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE269019830E2D35214296191130D711 /* OHHTTPStubs.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/OHHTTPStubs/OHHTTPStubs-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/OHHTTPStubs/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/OHHTTPStubs/OHHTTPStubs.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = OHHTTPStubs;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F8E4FA6686D3F22CD331A466FAB03A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		890EC6D441AF3F6EB5B9A6A04C88EB9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4B8585E87C3691D72E2EB5A78A7915D /* Pods-PuppyFlixTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlixTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlixTests/Pods-PuppyFlixTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlixTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3DF5284B54EE3722D401F31E953AE0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TUSafariActivity";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/ResourceBundle-TUSafariActivity-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C7E474A03CAE21F1CB6046E7344C59BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA0F88889B533ABF60BF26E26A172AD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC65FE4B03BCF9398B0BBD3929FA1A48 /* TUSafariActivity.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TUSafariActivity/TUSafariActivity-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TUSafariActivity/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TUSafariActivity/TUSafariActivity.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TUSafariActivity;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE3C230C4730B036CF45DB35073D597A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F25788EAD5389372CF618E3777858892 /* Pods-PuppyFlixUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlixUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlixUITests/Pods-PuppyFlixUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlixUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E828BDAEF670719C7CAB4D18F0CFE43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEE0553D2CB351A61ECF4C6D50FBB4B /* Pods-PuppyFlixTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlixTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlixTests/Pods-PuppyFlixTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlixTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FFDCB9DACF6C051C8013C043AF5E48B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 279F29AA2BC16CDF8619235B69413712 /* Pods-PuppyFlix.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-PuppyFlix/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-PuppyFlix/Pods-PuppyFlix.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_PuppyFlix;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034014829C1E4434983CF3A690C12017 /* Debug */,
+				C7E474A03CAE21F1CB6046E7344C59BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		350AB05A73B80A3B330EC3848172B433 /* Build configuration list for PBXNativeTarget "Pods-PuppyFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BB830AAC7E9ECAC7D4CF5B721B2EC24 /* Debug */,
+				DE3C230C4730B036CF45DB35073D597A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		359EE69031C480006CD2910991F3E4A8 /* Build configuration list for PBXNativeTarget "TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA0F88889B533ABF60BF26E26A172AD7 /* Debug */,
+				15EDA2602E69AD98A1C3C6507F0D0756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38D76E32C9FC59C27FA720DE3F3F24BC /* Build configuration list for PBXNativeTarget "OHHTTPStubs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2036DCCF1687103AD53E7B5AFA31903A /* Debug */,
+				0089A7C62D90B6960F2CBF1174C6A0D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86740ABEC5303518C0AC107495534067 /* Build configuration list for PBXNativeTarget "Pods-PuppyFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFDCB9DACF6C051C8013C043AF5E48B4 /* Debug */,
+				14A11E8601287ECECD538C353C6A10B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5418F020D209D7DEFD85FD1B6016DED /* Build configuration list for PBXNativeTarget "Pods-PuppyFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				890EC6D441AF3F6EB5B9A6A04C88EB9C /* Debug */,
+				E828BDAEF670719C7CAB4D18F0CFE43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2870FBDCF92666DD95C36B80D5477AA /* Build configuration list for PBXNativeTarget "TUSafariActivity-TUSafariActivity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3DF5284B54EE3722D401F31E953AE0F /* Debug */,
+				5F8E4FA6686D3F22CD331A466FAB03A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

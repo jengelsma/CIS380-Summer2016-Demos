@@ -1,0 +1,6 @@
+framework module Pods_PuppyFlix {
+  umbrella header "Pods-PuppyFlix-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+PODS:
+  - OHHTTPStubs (4.6.0):
+    - OHHTTPStubs/Default (= 4.6.0)
+  - OHHTTPStubs/Core (4.6.0)
+  - OHHTTPStubs/Default (4.6.0):
+    - OHHTTPStubs/Core
+    - OHHTTPStubs/JSON
+    - OHHTTPStubs/NSURLSession
+    - OHHTTPStubs/OHPathHelpers
+  - OHHTTPStubs/JSON (4.6.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/NSURLSession (4.6.0):
+    - OHHTTPStubs/Core
+  - OHHTTPStubs/OHPathHelpers (4.6.0)
+  - OHHTTPStubs/Swift (4.6.0):
+    - OHHTTPStubs/Core
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - OHHTTPStubs
+  - OHHTTPStubs/Swift
+  - TUSafariActivity (~> 1.0)
+
+SPEC CHECKSUMS:
+  OHHTTPStubs: cb1aefbbeb4de4e741644455d4b945538e5248a2
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+PODFILE CHECKSUM: df1c8d6d3b4be6bbdf11905b8a11ed380e866dc1
+
+COCOAPODS: 1.0.1
