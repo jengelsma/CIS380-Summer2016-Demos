@@ -162,6 +162,25 @@
 			name = Stubs;
 			sourceTree = "<group>";
 		};
+		9E8DDAFF1D48F4BB00B9A12E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9ECD229E1BCEC8AA00CBDDBE /* MasterViewController.swift */,
+				9ECD22A01BCEC8AA00CBDDBE /* DetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9E8DDB001D48F4D400B9A12E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9ECD22A21BCEC8AA00CBDDBE /* Main.storyboard */,
+				9ECD22A51BCEC8AA00CBDDBE /* Assets.xcassets */,
+				9ECD22A71BCEC8AA00CBDDBE /* LaunchScreen.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		9ECD22901BCEC8AA00CBDDBE = {
 			isa = PBXGroup;
 			children = (
@@ -187,16 +206,13 @@
 		9ECD229B1BCEC8AA00CBDDBE /* PuppyFlix */ = {
 			isa = PBXGroup;
 			children = (
+				9ECD229C1BCEC8AA00CBDDBE /* AppDelegate.swift */,
 				9E22E8361C0E36310062EE76 /* Stubs */,
 				9E22E7BF1BFFBEC20062EE76 /* Model */,
 				9E22E7BC1BFFBE5E0062EE76 /* VideoAPI */,
 				9ECD22CC1BCEC96B00CBDDBE /* ExternalComponents */,
-				9ECD229C1BCEC8AA00CBDDBE /* AppDelegate.swift */,
-				9ECD229E1BCEC8AA00CBDDBE /* MasterViewController.swift */,
-				9ECD22A01BCEC8AA00CBDDBE /* DetailViewController.swift */,
-				9ECD22A21BCEC8AA00CBDDBE /* Main.storyboard */,
-				9ECD22A51BCEC8AA00CBDDBE /* Assets.xcassets */,
-				9ECD22A71BCEC8AA00CBDDBE /* LaunchScreen.storyboard */,
+				9E8DDAFF1D48F4BB00B9A12E /* Controllers */,
+				9E8DDB001D48F4D400B9A12E /* Views */,
 				9ECD22AA1BCEC8AA00CBDDBE /* Info.plist */,
 			);
 			path = PuppyFlix;

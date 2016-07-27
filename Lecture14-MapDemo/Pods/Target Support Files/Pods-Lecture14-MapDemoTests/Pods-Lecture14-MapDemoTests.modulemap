@@ -1,0 +1,6 @@
+framework module Pods_Lecture14_MapDemoTests {
+  umbrella header "Pods-Lecture14-MapDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
